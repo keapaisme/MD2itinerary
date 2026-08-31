@@ -265,6 +265,18 @@ const DataService = {
     },
 
 
+    isLoggedIn() {
+        return localStorage.getItem('jp2026_v3_is_logged_in') === 'true';
+    },
+
+    setLoggedIn(status) {
+        if (status) {
+            localStorage.setItem('jp2026_v3_is_logged_in', 'true');
+        } else {
+            localStorage.removeItem('jp2026_v3_is_logged_in');
+        }
+    },
+
     saveExpenses(items) {
         const key = `jp2026_v3_exp_${this.currentCountry}`;
         localStorage.setItem(key, JSON.stringify(items));
