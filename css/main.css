@@ -37,10 +37,10 @@ body {
     margin: 0;
 }
 
-/* 主 App 容器 */
+/* 主 App 容器 (自適應響應式擴展至 1200px) */
 .app-container {
     width: 100%;
-    max-width: 480px;
+    max-width: 1200px;
     background: var(--bg-primary);
     min-height: 100vh;
     display: flex;
@@ -123,25 +123,21 @@ body {
     cursor: pointer;
 }
 
-/* 頂部 Hero 區塊 (AI 漫畫動態封面背景 - 鮮豔無黑遮板) */
+/* 頂部 Hero 區塊 (AI 漫畫原圖 100% 零遮檔呈現) */
 .header-hero {
     position: relative;
     background: #1e293b;
     background-size: cover;
     background-position: center;
-    padding: 28px 16px 22px;
+    padding: 32px 16px 24px;
     border-bottom: 1px solid var(--border-color);
     transition: background-image 0.5s ease;
     overflow: hidden;
 }
 
-/* 微弱底部漸層，確保閱讀清晰但圖片鮮明不壓暗 */
+/* 🌟 100% 徹底刪除遮板，零遮罩蓋板 */
 .header-hero::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(11, 15, 25, 0.65) 100%);
-    z-index: 1;
+    display: none !important;
 }
 
 .header-hero > * {
@@ -150,20 +146,33 @@ body {
 }
 
 .hero-title {
-    font-size: 1.35rem;
-    font-weight: 800;
+    font-size: 1.4rem;
+    font-weight: 900;
     letter-spacing: -0.5px;
     color: #ffffff;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9), 0 0 20px rgba(0, 0, 0, 0.8);
-    margin-bottom: 4px;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.95);
+    margin-bottom: 6px;
+    display: inline-block;
+    background: rgba(11, 15, 25, 0.5);
+    backdrop-filter: blur(8px);
+    padding: 4px 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .hero-subtitle {
-    font-size: 0.78rem;
-    color: #f1f5f9;
+    font-size: 0.8rem;
+    color: #f8fafc;
     font-weight: 600;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
     line-height: 1.4;
+    display: inline-block;
+    background: rgba(11, 15, 25, 0.45);
+    backdrop-filter: blur(8px);
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 4px;
 }
 
 /* 4人家庭成員頭像卡片 */
@@ -455,4 +464,68 @@ body {
     margin-top: 10px;
     font-size: 0.72rem;
     color: var(--text-muted);
+}
+
+/* 💻 跨裝置全自適應網頁 (RWD Responsive Grid System) */
+@media (min-width: 768px) {
+    .header-hero {
+        padding: 56px 36px 36px;
+        min-height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0 0 24px 24px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+        padding: 6px 18px;
+    }
+
+    .hero-subtitle {
+        font-size: 1.05rem;
+        padding: 6px 16px;
+    }
+
+    .sticky-nav {
+        padding: 8px 24px;
+        border-radius: 16px;
+        margin: 12px 16px;
+    }
+
+    .main-content {
+        padding: 24px 32px 40px;
+    }
+
+    /* 雙欄響應式行程卡片網格 (2-Column Grid) */
+    .timeline-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        gap: 18px;
+    }
+
+    /* 飯店住宿與預算在大螢幕下的雙欄佈局 */
+    #hotelsView .timeline-list {
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-hero {
+        padding: 70px 48px 48px;
+        min-height: 280px;
+    }
+
+    .hero-title {
+        font-size: 2.6rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.15rem;
+    }
+
+    .timeline-list {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 24px;
+    }
 }
