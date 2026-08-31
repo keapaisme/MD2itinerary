@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Version: v1.1 | Description: 將成員個人頭像標籤與身分說明匿名化更名為 成員1(隊長)、成員2、成員3、成員4。 -->
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>2026 東京・橫濱・鎌倉精緻六日遊 | Peak Agent-Native 行動手冊</title>
+    <meta name="description" content="2026 東京・橫濱・鎌倉六日家庭遊 — Peak Agent-Native 動態元件架構，100% 重現原版 WOW 級視覺體驗。">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css?v=20260802_v20">
+
+
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- 通用密碼解鎖遮罩 -->
+        <div id="loginOverlay" class="login-overlay hidden">
+            <div class="login-box">
+                <h1 class="login-title">2026 日本家庭遊</h1>
+                <p class="login-subtitle">請輸入 4 位解鎖通行密碼 (預設: 2026)</p>
+                <div class="passcode-inputs">
+                    <input type="password" maxlength="1" class="passcode-digit" autofocus>
+                    <input type="password" maxlength="1" class="passcode-digit">
+                    <input type="password" maxlength="1" class="passcode-digit">
+                    <input type="password" maxlength="1" class="passcode-digit">
+                </div>
+                <button id="loginBtn" class="btn-primary">驗證並開啟手冊</button>
+            </div>
+        </div>
+
+        <!-- 頂部 Hero 區塊與 AI Agent 控制列 -->
+        <header class="header-hero">
+            <h1 class="hero-title">2026 東京・橫濱・鎌倉</h1>
+            <p class="hero-subtitle">7/10 (五) ~ 7/15 (三) · 六日四人精緻防禦行程</p>
+            
+            <!-- 4人成員頭像卡片 -->
+            <div class="family-avatars">
+                <div class="avatar-pill" style="border-color: var(--color-husband);">
+                    <span class="avatar-name" style="color: var(--color-husband);">成員1</span>
+                    <span class="avatar-role">成員1 (隊長)</span>
+                </div>
+                <div class="avatar-pill" style="border-color: var(--color-wife);">
+                    <span class="avatar-name" style="color: var(--color-wife);">成員2</span>
+                    <span class="avatar-role">成員2</span>
+                </div>
+                <div class="avatar-pill" style="border-color: var(--color-elder);">
+                    <span class="avatar-name" style="color: var(--color-elder);">成員3</span>
+                    <span class="avatar-role">成員3 (25歲)</span>
+                </div>
+                <div class="avatar-pill" style="border-color: var(--color-younger);">
+                    <span class="avatar-name" style="color: var(--color-younger);">成員4</span>
+                    <span class="avatar-role">成員4 (21歲)</span>
+                </div>
+            </div>
+
+            <!-- 🌟 AI Agent 特色控制面板 (國家切換) -->
+            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); padding: 10px; border-radius: 12px; margin-top: 12px;">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span style="font-size:0.75rem; font-weight:700; color:var(--color-primary);">🌍 目的地行程切換</span>
+                    <select id="countrySelect" style="width:200px; padding:6px; border-radius:8px; background:var(--bg-secondary); color:#fff; border:1px solid var(--border-color); font-size:0.75rem; outline:none;">
+                        <option value="taiwan">🇹🇼 台灣 3日環島機車遊 (8/3-8/5 實體導入)</option>
+                        <option value="japan">🇯🇵 日本 6日遊 (2026東京5日方案A.md)</option>
+                        <option value="china">🇨🇳 中國旅遊 (中國旅遊.md 實體導入)</option>
+                        <option value="swiss">🇨🇭 瑞士 8日遊 (2027瑞士自駕方案.md)</option>
+                        <option value="paris">🇫🇷 巴黎 7日遊 (Paris_7Days_Trip.md 英文實體)</option>
+
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="hero-actions" style="margin-top:10px;">
+                <button id="playComicBtn" class="action-pill-btn">
+                    🎬 播放 15 秒開場紙本漫畫
+                </button>
+            </div>
+        </header>
+
+        <!-- Sticky Navigation 頁籤選單 -->
+        <nav class="sticky-nav">
+            <div class="nav-tabs">
+                <button class="tab-item active" data-target="day1View">Day 1</button>
+                <button class="tab-item" data-target="day2View">Day 2</button>
+                <button class="tab-item" data-target="day3View">Day 3</button>
+                <button class="tab-item" data-target="day4View">Day 4</button>
+                <button class="tab-item" data-target="day5View">Day 5</button>
+                <button class="tab-item" data-target="day6View">Day 6</button>
+                <button class="tab-item" data-target="transportView" style="border-color: var(--color-secondary);">🚦 交通攻略</button>
+                <button class="tab-item" data-target="budgetView">💰 預算與記帳</button>
+            </div>
+        </nav>
+
+        <!-- 視圖掛載容器區塊 -->
+        <main class="main-content">
+            <section id="day1View" class="view-section active"></section>
+            <section id="day2View" class="view-section"></section>
+            <section id="day3View" class="view-section"></section>
+            <section id="day4View" class="view-section"></section>
+            <section id="day5View" class="view-section"></section>
+            <section id="day6View" class="view-section"></section>
+            <section id="transportView" class="view-section"></section>
+            <section id="budgetView" class="view-section"></section>
+        </main>
+
+        <!-- 🖼️ 全螢幕 Lightbox Popup 漫畫照片彈窗 -->
+    <div id="lightboxModal" class="lightbox-modal" onclick="UIEngine.closeLightbox()">
+        <img id="lightboxImg" src="" alt="AI 漫畫合照" class="lightbox-img">
+        <div class="lightbox-caption">🎨 知名景點成員 AI 漫畫合照 (現場 1:1 復刻打卡)</div>
+        <div class="lightbox-hint">💡 點擊畫面任意位置即可關閉恢復</div>
+    </div>
+
+    <!-- 🌤️ AI 超奢華雙備選景點與口袋情報 POPUP 模態彈窗 -->
+    <div id="backupModal" class="lightbox-modal" onclick="if(event.target.id==='backupModal') UIEngine.closeBackupModal()">
+        <div style="background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:20px; padding:20px; max-width:420px; width:92%; max-height:85vh; overflow-y:auto; color:#fff; box-shadow:0 0 50px rgba(0,0,0,0.9); border-top:3px solid var(--color-primary);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+                <h3 id="backupModalTitle" style="font-size:1.1rem; font-weight:800; color:var(--color-primary);">🌤️ 景點口袋情報與彈性備案</h3>
+                <span onclick="UIEngine.closeBackupModal()" style="font-size:1.5rem; cursor:pointer; color:var(--text-muted); padding:0 6px;">&times;</span>
+            </div>
+            
+            <!-- 🌤️ 當地時段氣候預報 -->
+            <div id="backupModalWeather" style="background:linear-gradient(90deg, rgba(56,189,248,0.12), rgba(129,140,248,0.12)); border:1px solid rgba(56,189,248,0.25); padding:10px 14px; border-radius:12px; margin-bottom:14px; font-size:0.78rem; display:flex; align-items:center; gap:8px;"></div>
+
+            <!-- 🎯 2 大彈性替代景點 -->
+            <div style="font-size:0.82rem; font-weight:700; color:#fff; margin-bottom:8px;">🎯 AI 預先規劃 2 大彈性替代方案：</div>
+            <div id="backupModalBody" style="display:flex; flex-direction:column; gap:10px; margin-bottom:16px;"></div>
+
+            <!-- 🎥 KOL 達人實測與官方連結錦囊 -->
+            <div style="font-size:0.82rem; font-weight:700; color:#fff; margin-bottom:8px;">💡 KOL 達人開箱與官方資訊：</div>
+            <div id="backupModalExtra" style="display:flex; flex-direction:column; gap:8px;"></div>
+
+            <button onclick="UIEngine.closeBackupModal()" class="btn-primary" style="margin-top:18px; padding:12px; font-size:0.82rem; background:rgba(255,255,255,0.08); color:#fff; border:1px solid var(--border-color);">關閉情報視窗</button>
+        </div>
+    </div>
+
+
+
+
+    <script src="js/data_service.js"></script>
+    <script src="js/ui_engine.js?v=20260802_v25"></script>
+
+
+
+
+</body>
+
+</html>

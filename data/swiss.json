@@ -1,0 +1,423 @@
+{
+    "title": "2027 瑞士阿爾卑斯山 8日自駕遊",
+    "subtitle": "6/01 (六) ~ 6/08 (六) · 蘇黎世・少女峰・馬特洪峰冰河巡禮",
+    "sheet_name": "2027瑞士阿爾卑斯自駕8日遊_公積金帳本",
+    "budget_total": 200000,
+    "days_count": 8,
+    "hotels": [],
+    "days": {
+        "1": {
+            "date": "6/01 六",
+            "theme": "📅 Day 1(6/01 六) 蘇黎世湖畔與老城區巡禮",
+            "defense": "自駕取車直奔湖景飯店,全程無障礙行李移動",
+            "timeline": [
+                {
+                    "time": "10:00 - 11:00",
+                    "title": "蘇黎世機場 ➔ 取車自駕開啟阿爾卑斯之旅",
+                    "desc": "機場取車處領取四輪驅動 SUV，輕鬆裝載全家大行李。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇黎世機場 ➔ 取車自駕開啟阿爾卑斯之旅+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=蘇黎世機場 ➔ 取車自駕開啟阿爾卑斯之旅+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "11:30 - 14:00",
+                    "title": "班霍夫大街與蘇黎世老城漫步",
+                    "desc": "逛瑞士頂級鐘錶街與聖彼得大教堂大鐘樓。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=班霍夫大街與蘇黎世老城漫步+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=班霍夫大街與蘇黎世老城漫步+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "15:00 - 18:00",
+                    "title": "蘇黎世湖遊船與林登霍夫山丘俯瞰古城",
+                    "desc": "乘船遊覽淨澈湖光山色，登丘陵欣賞利馬特河風光。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇黎世湖遊船與林登霍夫山丘俯瞰古城+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=蘇黎世湖遊船與林登霍夫山丘俯瞰古城+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "date": "6/02 日",
+            "theme": "📅 Day 2(6/02 日) 少女峰山腳格林德瓦與冰河景觀",
+            "defense": "纜車預約號碼牌防衝撞，高空舒適登頂",
+            "timeline": [
+                {
+                    "time": "08:30 - 10:30",
+                    "title": "蘇黎世 ➔ 格林德瓦 (景觀自駕公路)",
+                    "desc": "沿圖恩湖與布里恩茨湖兩大藍寶石湖泊行駛。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇黎世 ➔ 格林德瓦 (景觀自駕公路)+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=蘇黎世 ➔ 格林德瓦 (景觀自駕公路)+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "11:00 - 15:30",
+                    "title": "Eiger Express 艾格快線纜車 ➔ 少女峰頂站",
+                    "desc": "直達歐洲最高火車站，參觀超級冰宮與阿萊奇冰川萬年雪原。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Eiger Express 艾格快線纜車 ➔ 少女峰頂站+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Eiger Express 艾格快線纜車 ➔ 少女峰頂站+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "date": "6/03 一",
+            "theme": "📅 Day 3(6/03 一) 勞特布龍嫩瀑布鎮與雪朗峰",
+            "defense": "007 電影取景地與 72 條瀑布山谷",
+            "timeline": [
+                {
+                    "time": "09:00 - 12:00",
+                    "title": "勞特布龍嫩 U 型山谷與施陶河瀑布",
+                    "desc": "漫步絕壁陡峭瀑布小鎮，感受天然水氣水霧。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=勞特布龍嫩 U 型山谷與施陶河瀑布+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=勞特布龍嫩 U 型山谷與施陶河瀑布+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:00 - 16:30",
+                    "title": "登頂雪朗峰 (Schilthorn) 360 旋轉餐廳",
+                    "desc": "欣賞少女峰、僧侶峰與艾格峰三大名峰連綿群山。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=登頂雪朗峰 (Schilthorn) 360 旋轉餐廳+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=登頂雪朗峰 (Schilthorn) 360 旋轉餐廳+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "date": "6/04 二",
+            "theme": "📅 Day 4(6/04 二) 冰河列車黃金路線與策馬特山城",
+            "defense": "全無污染無煙小鎮與馬特洪峰初見",
+            "timeline": [
+                {
+                    "time": "09:30 - 13:00",
+                    "title": "塔什 (Täsch) 停車場 ➔ 轉乘登山齒軌電車進策馬特",
+                    "desc": "全車停放電車站，極速輕鬆進入策馬特山城。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=塔什 (Täsch) 停車場 ➔ 轉乘登山齒軌電車進策馬特+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=塔什 (Täsch) 停車場 ➔ 轉乘登山齒軌電車進策馬特+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 18:00",
+                    "title": "策馬特班霍夫大街慢逛與金色日落",
+                    "desc": "採購瑞士木雕與瑞士軍刀，等待日落馬特洪峰金頂。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=策馬特班霍夫大街慢逛與金色日落+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=策馬特班霍夫大街慢逛與金色日落+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
+            "date": "6/05 水",
+            "theme": "📅 Day 5(6/05 水) 葛納葛特 (Gornergrat) 觀景台與利菲爾湖倒影",
+            "defense": "神級黑臉羊打卡與馬特洪峰湖水倒影",
+            "timeline": [
+                {
+                    "time": "08:00 - 12:00",
+                    "title": "葛納葛特百年齒軌電車登頂 3135m",
+                    "desc": "欣賞 29 座海拔超過 4000 公尺的宏偉巨峰與葛納冰河。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=葛納葛特百年齒軌電車登頂 3135m+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=葛納葛特百年齒軌電車登頂 3135m+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "12:30 - 15:00",
+                    "title": "健行至 Rotenboden 站下方的利菲爾湖 (Riffelsee)",
+                    "desc": "拍攝倒映在鏡面湖水中的完美馬特洪峰天際線。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=健行至 Rotenboden 站下方的利菲爾湖 (Riffelsee)+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=健行至 Rotenboden 站下方的利菲爾湖 (Riffelsee)+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "6": {
+            "date": "6/06 木",
+            "theme": "📅 Day 6(6/06 木) 蒙特勒與雷芒湖畔施庸城堡",
+            "defense": "爵士之都與拜倫筆下湖中古堡",
+            "timeline": [
+                {
+                    "time": "09:00 - 12:00",
+                    "title": "策馬特自駕 ➔ 雷芒湖畔蒙特勒",
+                    "desc": "沿瓦萊州羅納河谷行駛，進入法語區風情。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=策馬特自駕 ➔ 雷芒湖畔蒙特勒+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=策馬特自駕 ➔ 雷芒湖畔蒙特勒+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:30 - 17:00",
+                    "title": "參觀施庸城堡 (Château de Chillon)",
+                    "desc": "進入中世紀湖中防禦城堡，探索古堡地下地下室與公爵大廳。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=參觀施庸城堡 (Château de Chillon)+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=參觀施庸城堡 (Château de Chillon)+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "7": {
+            "date": "6/07 金",
+            "theme": "📅 Day 7(6/07 金) 日內瓦聯合國歐洲總部與花鐘",
+            "defense": "國際外交之都與大噴泉漫步",
+            "timeline": [
+                {
+                    "time": "10:00 - 13:00",
+                    "title": "萬國宮 (Palais des Nations) 與三腳椅雕塑",
+                    "desc": "參觀聯合國歐洲總部大樓與斷腳椅子公共藝術。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=萬國宮 (Palais des Nations) 與三腳椅雕塑+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=萬國宮 (Palais des Nations) 與三腳椅雕塑+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:30 - 17:30",
+                    "title": "日內瓦湖 140 米高空大噴泉 (Jet d'Eau)",
+                    "desc": "漫步英式花園與湖畔大道，享受法式浪漫步調。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=日內瓦湖 140 米高空大噴泉 (Jet d'Eau)+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=日內瓦湖 140 米高空大噴泉 (Jet d'Eau)+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "8": {
+            "date": "6/08 六",
+            "theme": "📅 Day 8(6/08 六) 返程自駕還車與日內瓦機場",
+            "defense": "滿載回億,順利返航",
+            "timeline": [
+                {
+                    "time": "09:00 - 11:30",
+                    "title": "日內瓦機場還車與免稅店採買瑞士巧克力",
+                    "desc": "辦理 SUV 順利還車，購買瑞士蓮與高檔手工巧克力。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=日內瓦機場還車與免稅店採買瑞士巧克力+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=日內瓦機場還車與免稅店採買瑞士巧克力+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:30 - 16:30",
+                    "title": "搭機返航",
+                    "desc": "圓滿結束 8 日阿爾卑斯自駕之旅。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=搭機返航+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=搭機返航+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

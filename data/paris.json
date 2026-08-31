@@ -1,0 +1,166 @@
+{
+    "title": "Paris 7 Days Eiffel & Louvre Luxury Tour",
+    "subtitle": "10/12 (Mon) ~ 10/18 (Sun) · Eiffel Tower, Louvre Museum & Palace of Versailles",
+    "sheet_name": "Paris_Luxury_Tour_Budget",
+    "budget_total": 3000,
+    "days_count": 3,
+    "hotels": [
+        {
+            "name": "Ritz Paris (Palace Hotel)",
+            "date": "10/12 (Mon) ~ 10/18 (Sun) · 6 Nights",
+            "address": "15 Place Vendôme, 75001 Paris, France",
+            "access": "Metro Line 3, 7, 8 (Opéra Station)",
+            "notes": "Historic luxury hotel at Place Vendôme with Michelin dining.",
+            "phone": "+33 1 43 16 30 30"
+        }
+    ],
+    "days": {
+        "1": {
+            "date": "10/12 Mon",
+            "theme": "Day 1 (10/12 Mon) Arrival in Paris & Seine River Sunset Cruise",
+            "defense": "Smooth CDG Private Transfer & Romantic River Cruise",
+            "timeline": [
+                {
+                    "time": "10:00 - 12:00",
+                    "title": "CDG Airport -> Ritz Paris Hotel Check-in",
+                    "desc": "Private luxury transfer from airport directly to hotel.",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=CDG Airport -> Ritz Paris Hotel Check-in+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=CDG Airport -> Ritz Paris Hotel Check-in+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:00",
+                    "title": "Louvre Museum Afternoon Tour",
+                    "desc": "Private guided tour for Mona Lisa and Venus de Milo.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Louvre Museum Afternoon Tour+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Louvre Museum Afternoon Tour+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "19:00 - 21:30",
+                    "title": "Seine River Sunset Dinner Cruise",
+                    "desc": "Enjoy 3-course French cuisine aboard Bateaux Parisiens.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Seine River Sunset Dinner Cruise+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Seine River Sunset Dinner Cruise+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "date": "10/13 Tue",
+            "theme": "Day 2 (10/13 Tue) Eiffel Tower & Champs-Élysées Shopping",
+            "defense": "Iconic Landmark Photos & High Fashion Shopping",
+            "timeline": [
+                {
+                    "time": "09:30 - 12:30",
+                    "title": "Eiffel Tower Summit Access",
+                    "desc": "Priority elevator ticket to the top of Eiffel Tower.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Eiffel Tower Summit Access+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Eiffel Tower Summit Access+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 18:00",
+                    "title": "Champs-Élysées & Arc de Triomphe",
+                    "desc": "Luxury boutique shopping and panoramic view from Arc de Triomphe.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Champs-Élysées & Arc de Triomphe+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Champs-Élysées & Arc de Triomphe+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "date": "10/14 Wed",
+            "theme": "Day 3 (10/14 Wed) Palace of Versailles Royal Tour",
+            "defense": "Grand Royal Palace & Hall of Mirrors",
+            "timeline": [
+                {
+                    "time": "09:00 - 15:00",
+                    "title": "Palace of Versailles Direct Express",
+                    "desc": "Tour the Hall of Mirrors and Royal Gardens.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=Palace of Versailles Direct Express+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=Palace of Versailles Direct Express+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

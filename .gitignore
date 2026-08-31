@@ -1,0 +1,26 @@
+# ==============================================================================
+# MD2itinerary - Git Privacy & Exclude Rules for GitHub Pages
+# ==============================================================================
+
+# 1. 隱私與備份資料夾過濾
+日誌/
+bak/
+.agents/
+scratch/
+
+# 2. Markdown 檔案過濾（僅允許 DEMO_*.md 與公開 README.md）
+*.md
+!README.md
+!DEMO_*.md
+!**/DEMO_*.md
+
+# 3. 系統與暫存檔過濾
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.bak

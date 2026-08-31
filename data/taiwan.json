@@ -1,0 +1,279 @@
+{
+    "title": "2026 台灣熱血機車環島 3日極限突破",
+    "subtitle": "8/03 (一) ~ 8/05 (三) · 台北 ➔ 墾丁 ➔ 花蓮 ➔ 台北· 縱貫台1線與台11線太平洋海岸線",
+    "sheet_name": "2026台灣機車環島_公積金帳本",
+    "budget_total": 18500,
+    "days_count": 3,
+    "hotels": [
+        {
+            "name": "墾丁南灣海景第一排客棧 (Kenting South Bay Inn)",
+            "date": "8/03 (一) · Day 1 晚",
+            "address": "屏東縣恆春鎮南灣路 226 號",
+            "access": "台26線屏鵝公路南灣段旁，附專用機車停放區",
+            "notes": "陽台直面沙灘海浪，步行 3 分鐘即達墾丁大街夜市。",
+            "phone": "+886 8-888-9999"
+        },
+        {
+            "name": "花蓮東大門夜市青旅 (Hualien Dongdamen Hostel)",
+            "date": "8/04 (二) · Day 2 晚",
+            "address": "花蓮縣花蓮市中山路 50 號",
+            "access": "花蓮市區核心，距東大門夜市步行 2 分鐘",
+            "notes": "設有騎行愛好者專用單車/機車保養工具箱與自助洗衣房。",
+            "phone": "+886 3-833-7777"
+        }
+    ],
+    "days": {
+        "1": {
+            "date": "8/03 Mon",
+            "theme": "Day 1 (8/03 Mon) 台北直奔墾丁 (縱貫線台1線 450km 長征)",
+            "defense": "縱貫全台西半部，直達南台灣陽光沙灘",
+            "timeline": [
+                {
+                    "time": "07:00 - 09:30",
+                    "title": "台北自由廣場出發 -> 桃園台1線西濱公路",
+                    "desc": "全員裝備檢查完成，沿西部濱海快速公路台61線一路南下。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=台北自由廣場出發 -> 桃園台1線西濱公路+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=台北自由廣場出發 -> 桃園台1線西濱公路+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "title": "台中高美濕地 騎車巡禮",
+                    "desc": "觀賞巨大風車群與濕地景貌，停靠享用在地特色大甲芋頭冰。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴轉多雲 31°C · 降雨機率 10% · 西濱海風 3 級",
+                    "kol_link": "https://www.youtube.com/results?search_query=高美濕地+騎車+開箱",
+                    "official_link": "https://www.google.com/search?q=高美濕地+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "梧棲文化出張所 (日式老宅咖啡)",
+                            "desc": "保存完好的古蹟日式木造建築群，享受室內冷氣與精緻手沖咖啡。"
+                        },
+                        {
+                            "title": "台中三井 OUTLET 摩天輪室內館",
+                            "desc": "臨海大型室內購物商場，設有海景餐廳與大型室內娛樂區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:30 - 15:30",
+                    "title": "台南安平古堡 & 文章牛肉湯 (午餐)",
+                    "desc": "享用道地現涮溫體牛肉湯，補充熱量與水分。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=台南安平古堡 & 文章牛肉湯 (午餐)+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=台南安平古堡 & 文章牛肉湯 (午餐)+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "18:00 - 20:30",
+                    "title": "墾丁南灣沙灘駐車 & 墾丁大街夜市",
+                    "desc": "入住墾丁海景客棧，夜間漫步墾丁大街享用烤海鮮。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "☀️ 時段預報：陽光普照 33°C · 降雨機率 5% · 紫外線指數過量",
+                    "kol_link": "https://www.youtube.com/results?search_query=墾丁南灣+海鮮+KOL開箱",
+                    "official_link": "https://www.google.com/search?q=墾丁國家公園+官網",
+                    "backup_spots": [
+                        {
+                            "title": "國立海洋生物博物館 (車城海生館)",
+                            "desc": "全台最大室內水族館，擁巨大海底隧道與小白鯨，雨天與避暑首選。"
+                        },
+                        {
+                            "title": "恆春古城西門商圈美食街",
+                            "desc": "漫步古色古香室內老宅餐廳，品嚐綠豆蒜與在地古早味小吃。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "date": "8/04 Tue",
+            "theme": "Day 2 (8/04 Tue) 墾丁 ➔ 台東 ➔ 花蓮 (台11線太平洋海景公路)",
+            "defense": "擁抱藍色太平洋，騎行全台最美蔚藍海岸線",
+            "timeline": [
+                {
+                    "time": "08:00 - 10:30",
+                    "title": "鵝鑾鼻燈塔 台灣最南點打卡",
+                    "desc": "環島地標打卡，合照留念後翻越壽卡勝景，切入東海岸。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=鵝鑾鼻燈塔 台灣最南點打卡+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=鵝鑾鼻燈塔 台灣最南點打卡+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "11:30 - 14:00",
+                    "title": "台東三仙台跨海大橋",
+                    "desc": "跨越八拱橋感受海浪拍岸震撼，享用台東池上便當與特產海鮮。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲時晴 29°C · 降雨機率 20% · 太平洋海浪潮位穩定",
+                    "kol_link": "https://www.youtube.com/results?search_query=台東三仙台+石梯坪+騎車實測",
+                    "official_link": "https://www.eastcoast-nsa.gov.tw/",
+                    "backup_spots": [
+                        {
+                            "title": "台東美術館與創客文創園區",
+                            "desc": "靜謐室內藝術展覽館與特色文創咖啡館，雨天避風浪絕佳備案。"
+                        },
+                        {
+                            "title": "東海岸國家風景區遊客中心",
+                            "desc": "設有巨型視聽放映室與海岸地質多媒體互動展區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "15:30 - 17:30",
+                    "title": "花蓮石梯坪海岸岩石景點",
+                    "desc": "觀察海蝕溝與單面山地質景觀，隨手拍出大片感。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲時晴 29°C · 降雨機率 20% · 太平洋海浪潮位穩定",
+                    "kol_link": "https://www.youtube.com/results?search_query=台東三仙台+石梯坪+騎車實測",
+                    "official_link": "https://www.eastcoast-nsa.gov.tw/",
+                    "backup_spots": [
+                        {
+                            "title": "台東美術館與創客文創園區",
+                            "desc": "靜謐室內藝術展覽館與特色文創咖啡館，雨天避風浪絕佳備案。"
+                        },
+                        {
+                            "title": "東海岸國家風景區遊客中心",
+                            "desc": "設有巨型視聽放映室與海岸地質多媒體互動展區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "19:00 之後",
+                    "title": "入住花蓮東大門夜市旁客棧",
+                    "desc": "晚餐巡禮東大門夜市（原住民竹筒飯、官財板與烤玉米）。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=入住花蓮東大門夜市旁客棧+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=入住花蓮東大門夜市旁客棧+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "date": "8/05 Wed",
+            "theme": "Day 3 (8/05 Wed) 花蓮 ➔ 宜蘭 ➔ 台北 (北宜公路與九彎十八拐返程)",
+            "defense": "穿越蘇花改壯麗峭壁，完騎熱血環島之旅",
+            "timeline": [
+                {
+                    "time": "08:30 - 11:00",
+                    "title": "蘇花改公路 -> 宜蘭蘇澳冷泉",
+                    "desc": "騎行絕壁與太平洋之間的蘇花公路，抵達蘇澳體驗低溫冷泉泡腳。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇花改公路 -> 宜蘭蘇澳冷泉+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=蘇花改公路 -> 宜蘭蘇澳冷泉+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "12:00 - 14:00",
+                    "title": "礁溪溫泉休息與甕窯雞午餐",
+                    "desc": "享用皮酥肉嫩的礁溪甕窯雞大餐，洗去三日長途騎行疲憊。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=礁溪溫泉休息與甕窯雞午餐+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=礁溪溫泉休息與甕窯雞午餐+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                },
+                {
+                    "time": "15:00 - 17:30",
+                    "title": "北宜公路 9彎18拐 跑山終點直達台北返家",
+                    "desc": "挑戰經典北宜公路，停靠坪林茶鄉喝冷泡茶，順利完騎環島大滿貫！",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
+                    "kol_link": "https://www.youtube.com/results?search_query=北宜公路 9彎18拐 跑山終點直達台北返家+旅遊開箱",
+                    "official_link": "https://www.google.com/search?q=北宜公路 9彎18拐 跑山終點直達台北返家+景點介紹",
+                    "backup_spots": [
+                        {
+                            "title": "鄰近室內購物中心 / COREDO 商場",
+                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                        },
+                        {
+                            "title": "在地市立博物館 / 文創園區",
+                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
