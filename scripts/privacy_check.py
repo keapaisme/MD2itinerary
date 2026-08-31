@@ -54,6 +54,11 @@ def check_privacy():
                 # 排除純說明檔案（非公開靜態發布資產）
                 if not rel_p.endswith('.py'):
                     errors.append(f"❌ 警告: {rel_p} 包含硬編碼本機磁碟路徑！")
+            
+            # 檢查成員歲數個資標示
+            if re.search(r'成員\d\s*\(\d+歲\)', content):
+                rel_p = os.path.relpath(f_path, project_root)
+                errors.append(f"❌ 警告: {rel_p} 包含成員歲數個資標示！")
                     
         except Exception as e:
             pass
