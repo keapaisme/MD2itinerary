@@ -839,6 +839,19 @@ const UIEngine = {
             if (imgEl) imgEl.src = `${countryKey}_comic.jpg`;
             if (captionEl) captionEl.textContent = '👥 版面 2: 團隊歡聚卡案 (現場 1:1 復刻打卡 DEMO)';
         }
+    },
+
+    resetCacheAndReload() {
+        try {
+            localStorage.clear();
+            sessionStorage.clear();
+            if ('caches' in window) {
+                caches.keys().then(names => {
+                    names.forEach(name => caches.delete(name));
+                });
+            }
+        } catch (e) {}
+        window.location.href = window.location.pathname + '?reset=' + Date.now();
     }
 };
 
