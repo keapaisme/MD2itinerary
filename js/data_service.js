@@ -154,26 +154,35 @@ const DataService = {
 
         if (this.currentCountry === 'taiwan') {
             return [
-                { name: '機車全體95無鉛汽油加滿 (Day 1)', amount: 650, category: '機車油資', time: '8/03 08:30' },
-                { name: '文章牛肉湯溫體牛餐 (Day 1)', amount: 980, category: '美食餐飲食記', time: '8/03 14:00' },
-                { name: '墾丁大街夜市烤海鮮大餐 (Day 1)', amount: 1500, category: '夜市宵夜小吃', time: '8/03 19:30' },
-                { name: '池上便當與三仙台門票 (Day 2)', amount: 720, category: '餐飲食記', time: '8/04 12:30' }
+                { name: '機車全體95無鉛汽油加滿 (Day 1)', amount: 650, category: '機車油資', time: '11/06 08:30' },
+                { name: '文章牛肉湯溫體牛餐 (Day 1)', amount: 980, category: '美食餐飲食記', time: '11/06 14:00' },
+                { name: '太魯閣晶英峽谷下午茶 (Day 1)', amount: 1800, category: '飯店餐飲', time: '11/06 16:30' },
+                { name: '墾丁大街夜市現切海鮮 (Day 2)', amount: 1500, category: '夜市小吃', time: '11/07 19:30' }
             ];
         } else if (this.currentCountry === 'china') {
             return [
-                { name: '房車油費與過路費 (Day 1)', amount: 120, category: '交通自駕', time: '10/01 10:30' },
-                { name: '瑤琳仙境門票 (Day 1)', amount: 110, category: '景點門票', time: '10/01 14:00' },
-                { name: '桐廬河鮮採買與小吃', amount: 80, category: '飲食採買', time: '10/01 18:30' }
+                { name: '上海老飯店 本幫菜大餐 (Day 1)', amount: 8500, category: '公積金餐飲', time: '9/15 19:00' },
+                { name: '蘇州高鐵特快與松鶴樓鬆鼠桂魚 (Day 2)', amount: 7200, category: '高鐵美食', time: '9/16 12:30' },
+                { name: '大理酸辣魚與野生菌火鍋 (Day 3)', amount: 6000, category: '雲南特色餐', time: '9/17 18:00' }
             ];
         } else if (this.currentCountry === 'swiss') {
             return [
-                { name: 'Zeughauskeller 軍械庫起司火鍋', amount: 18000, category: '公積金大餐', time: '6/01 19:00' },
-                { name: '格林德瓦景觀餐廳 烤起司堡', amount: 12000, category: '山頂餐飲', time: '6/02 12:30' }
+                { name: 'Zeughauskeller 軍械庫起司火鍋 (Day 1)', amount: 180, category: '公積金大餐', time: '6/12 19:00' },
+                { name: '格林德瓦景觀餐廳 烤起司堡 (Day 2)', amount: 120, category: '山頂餐飲', time: '6/13 12:30' },
+                { name: '少女峰艾格快線纜車票 (Day 3)', amount: 450, category: '交通纜車', time: '6/14 08:30' }
+            ];
+        } else if (this.currentCountry === 'paris') {
+            return [
+                { name: 'Bateaux Parisiens 塞納河晚餐遊船 (Day 1)', amount: 350, category: '法式晚餐', time: '10/12 19:00' },
+                { name: 'Eiffel Tower 天望登頂優先電梯 (Day 2)', amount: 120, category: '景點門票', time: '10/13 10:00' },
+                { name: '凡爾賽宮鏡廳與皇家花園門票 (Day 3)', amount: 90, category: '宮殿門票', time: '10/14 09:30' }
             ];
         } else {
             return [
-                { name: '荒井屋 和牛牛鍋(Day 1午餐)', amount: 14000, category: '公積金大餐', time: '7/10 12:30' },
-                { name: '鎌倉 釜飯 蒲安(Day 2午餐)', amount: 7000, category: '平民美食', time: '7/11 14:30' }
+                { name: '淺草下町壽司與和牛燒肉 (Day 1午餐)', amount: 8500, category: '公積金餐飲', time: '10/10 12:30' },
+                { name: '晴空塔天望甲板門票與夜景餐 (Day 1晚餐)', amount: 12000, category: '高空大餐', time: '10/10 19:00' },
+                { name: '富士山河口湖全景纜車票 (Day 2)', amount: 4500, category: '景點纜車', time: '10/11 14:00' },
+                { name: '鎌倉小町通手作小吃與名物 (Day 3)', amount: 3200, category: '古都小吃', time: '10/12 12:00' }
             ];
         }
     },

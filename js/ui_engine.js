@@ -611,6 +611,11 @@ const UIEngine = {
             });
         });
 
+        const playComicBtn = document.getElementById('playComicBtn');
+        if (playComicBtn) {
+            playComicBtn.addEventListener('click', () => this.openComicModal());
+        }
+
         const loginBtn = document.getElementById('loginBtn');
         if (loginBtn) {
             loginBtn.addEventListener('click', () => this.handleLogin());
@@ -711,6 +716,55 @@ const UIEngine = {
         DataService.saveExpenses(expenses);
         const payload = DataService._caches[DataService.currentCountry];
         this.renderExpenses(payload);
+    },
+
+    openComicModal() {
+        const countryKey = DataService.currentCountry || 'japan';
+        const imgEl = document.getElementById('lightboxImg');
+        const titleEl = document.getElementById('comicModalTitle');
+        const modal = document.getElementById('lightboxModal');
+        const userPhotoContainer = document.getElementById('userPhotoContainer');
+
+        if (userPhotoContainer) userPhotoContainer.style.display = 'none';
+
+        const comicImgPath = `${countryKey}_comic.jpg`;
+        if (imgEl) imgEl.src = comicImgPath;
+
+        const countryNames = {
+            'japan': '🇯🇵 日本東京關東',
+            'paris': '🇫🇷 法國巴黎奢華',
+            'china': '🇨🇳 中國大理江南',
+            'swiss': '🇨🇭 瑞士阿爾卑斯',
+            'taiwan': '🇹🇼 台灣環島海線'
+        };
+
+        if (titleEl) {
+            titleEl.textContent = `🎨 ${countryNames[countryKey] || '精選'} AI 經典漫畫紀念照`;
+        }
+
+        if (modal) modal.classList.remove('hidden');
+    },
+
+    closeLightbox() {
+        const modal = document.getElementById('lightboxModal');
+        if (modal) modal.classList.add('hidden');
+    },
+
+    handleCameraUpload(event) {
+        const file = event.target.files && event.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            const userPhotoImg = document.getElementById('userPhotoImg');
+            const userPhotoContainer = document.getElementById('userPhotoContainer');
+            if (userPhotoImg && userPhotoContainer) {
+                userPhotoImg.src = e.target.result;
+                userPhotoContainer.style.display = 'block';
+                alert('🎉 復刻打卡成功！已為您比對展示 AI 漫畫 vs 現場實拍對比照片。');
+            }
+        };
+        reader.readAsDataURL(file);
     }
 };
 

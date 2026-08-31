@@ -107,11 +107,32 @@
             <section id="budgetView" class="view-section"></section>
         </main>
 
-        <!-- 🖼️ 全螢幕 Lightbox Popup 漫畫照片彈窗 -->
-    <div id="lightboxModal" class="lightbox-modal" onclick="UIEngine.closeLightbox()">
-        <img id="lightboxImg" src="" alt="AI 漫畫合照" class="lightbox-img">
-        <div class="lightbox-caption">🎨 知名景點成員 AI 漫畫合照 (現場 1:1 復刻打卡)</div>
-        <div class="lightbox-hint">💡 點擊畫面任意位置即可關閉恢復</div>
+    <!-- 🖼️ 全螢幕 Lightbox Popup 漫畫照片彈窗與復刻打卡 -->
+    <input type="file" id="cameraInput" accept="image/*" capture="environment" style="display:none;" onchange="UIEngine.handleCameraUpload(event)">
+    
+    <div id="lightboxModal" class="lightbox-modal" onclick="if(event.target.id==='lightboxModal') UIEngine.closeLightbox()">
+        <div style="background:var(--bg-secondary); border:1px solid var(--border-color); border-radius:20px; padding:16px; max-width:600px; width:92%; max-height:90vh; overflow-y:auto; text-align:center; color:#fff; box-shadow:0 0 50px rgba(0,0,0,0.9); border-top:3px solid var(--color-accent);">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+                <h3 id="comicModalTitle" style="font-size:1.05rem; font-weight:800; color:var(--color-accent);">🎨 AI 經典景點漫畫紀念照</h3>
+                <span onclick="UIEngine.closeLightbox()" style="font-size:1.5rem; cursor:pointer; color:var(--text-muted); padding:0 6px;">&times;</span>
+            </div>
+            
+            <div id="comicComparisonArea" style="display:flex; flex-direction:column; gap:12px;">
+                <div>
+                    <img id="lightboxImg" src="" alt="AI 漫畫合照" style="width:100%; border-radius:12px; border:1px solid var(--border-color); object-fit:cover; max-height:350px;">
+                    <div id="comicCaption" style="font-size:0.78rem; color:var(--text-muted); margin-top:6px;">🎨 AI 獨家畫風紀念卡案 (現場 1:1 復刻打卡標竿)</div>
+                </div>
+                <div id="userPhotoContainer" style="display:none;">
+                    <div style="font-size:0.82rem; font-weight:700; color:var(--color-success); margin-bottom:6px;">📷 您現場實拍的復刻打卡照片：</div>
+                    <img id="userPhotoImg" src="" alt="現場復刻實拍" style="width:100%; border-radius:12px; border:2px solid var(--color-success); object-fit:cover; max-height:350px;">
+                </div>
+            </div>
+
+            <div style="display:flex; gap:10px; margin-top:16px;">
+                <button onclick="document.getElementById('cameraInput').click()" class="btn-primary" style="flex:1; padding:12px; font-size:0.85rem; background:linear-gradient(135deg, var(--color-primary), var(--color-accent)); color:#fff;">📷 實拍一張 復刻打卡</button>
+                <button onclick="UIEngine.closeLightbox()" style="padding:12px 18px; font-size:0.82rem; background:rgba(255,255,255,0.1); color:#fff; border:1px solid var(--border-color); border-radius:12px; cursor:pointer;">關閉視窗</button>
+            </div>
+        </div>
     </div>
 
     <!-- 🌤️ AI 超奢華雙備選景點與口袋情報 POPUP 模態彈窗 -->
