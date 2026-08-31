@@ -321,6 +321,51 @@ body {
     margin-bottom: 12px;
 }
 
+.spot-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    position: relative;
+}
+
+.spot-image::after {
+    content: "🔍 點擊放大紀念照";
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: rgba(11, 15, 25, 0.7);
+    backdrop-filter: blur(4px);
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 20px;
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all 0.3s ease;
+}
+
+.spot-image:hover::after {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.spot-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.spot-image:hover img {
+    transform: scale(1.04);
+}
+
 .spot-card.is-transport {
     border-color: rgba(129, 140, 248, 0.3);
     background: rgba(21, 28, 46, 0.5);

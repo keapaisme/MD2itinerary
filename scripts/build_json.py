@@ -300,5 +300,13 @@ def main():
             "2026台灣環島遊_公積金帳本"
         )
 
+    # 6. 📸 啟動卡片打卡圖自動匹配與生成管線
+    print("\n📸 [Image Auto-Generator] 啟動卡片打卡圖檢索與生成管線...")
+    gen_script = os.path.join(script_dir, 'generate_images.py')
+    if os.path.exists(gen_script):
+        import subprocess
+        import sys
+        subprocess.run([sys.executable, gen_script], check=False)
+
 if __name__ == '__main__':
     main()

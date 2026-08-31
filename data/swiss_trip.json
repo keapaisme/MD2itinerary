@@ -55,7 +55,8 @@
                             "title": "蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day1_1.jpg"
                 },
                 {
                     "time": "14:00 - 17:30",
@@ -76,7 +77,8 @@
                             "title": "班霍夫大街與蘇黎世湖遊船 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day1_2.jpg"
                 }
             ]
         },
@@ -125,7 +127,8 @@
                             "title": "伯恩 ➔ 格林德瓦夢幻山谷 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day2_2.jpg"
                 }
             ]
         },
@@ -153,7 +156,8 @@
                             "title": "格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch) 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day3_1.jpg"
                 },
                 {
                     "time": "14:30 - 17:30",
@@ -174,7 +178,8 @@
                             "title": "勞特布龍嫩瀑布鎮漫步 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day3_2.jpg"
                 }
             ]
         },
@@ -251,7 +256,8 @@
                             "title": "高納葛拉特齒軌列車登頂 (Gornergrat) 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day5_1.jpg"
                 },
                 {
                     "time": "12:30 - 15:30",
@@ -272,7 +278,8 @@
                             "title": "利菲爾湖 (Riffelsee) 健行 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day5_2.jpg"
                 }
             ]
         },
@@ -300,7 +307,8 @@
                             "title": "馬特洪峰冰川天堂 (Matterhorn Glacier Paradise) 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day6_1.jpg"
                 },
                 {
                     "time": "14:00 - 17:00",
@@ -321,7 +329,8 @@
                             "title": "策馬特古老班戶夫大街巡禮 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day6_2.jpg"
                 }
             ]
         },
@@ -370,7 +379,8 @@
                             "title": "卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day7_2.jpg"
                 }
             ]
         },
@@ -398,7 +408,8 @@
                             "title": "琉森 ➔ 蘇黎世機場 (ZRH) 室內商場/特色風格咖啡館",
                             "desc": "享用在地限定美食與咖啡休憩區。"
                         }
-                    ]
+                    ],
+                    "image": "images/swiss_trip_day8_1.jpg"
                 }
             ]
         }

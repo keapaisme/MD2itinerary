@@ -307,7 +307,7 @@ const UIEngine = {
                     const safeTitleId = `comment_box_${dayKey}_${spotIndex}`;
 
                     let comicBtnHtml = `
-                        <button onclick="UIEngine.openComicModal()" class="comic-icon-btn" title="點擊觀看 AI 經典漫畫紀念照 (可現場實拍復刻)">
+                        <button onclick="UIEngine.openComicModal('${item.image || ''}', '${item.title.replace(/'/g, "\\'")}')" class="comic-icon-btn" title="點擊觀看 AI 經典漫畫紀念照 (可現場實拍復刻)">
                             🎨 AI 漫畫合照
                         </button>
                     `;
@@ -758,7 +758,7 @@ const UIEngine = {
         this.renderExpenses(payload);
     },
 
-    openComicModal(customImgSrc) {
+    openComicModal(customImgSrc, spotTitle) {
         const countryKey = DataService.currentCountry || 'japan';
         const imgEl = document.getElementById('lightboxImg');
         const titleEl = document.getElementById('comicModalTitle');
@@ -779,7 +779,11 @@ const UIEngine = {
         };
 
         if (titleEl) {
-            titleEl.textContent = `🎨 ${countryNames[countryKey] || '精選'} AI 經典漫畫紀念照`;
+            if (spotTitle) {
+                titleEl.textContent = `🎨 ${spotTitle} · AI 經典漫畫紀念照`;
+            } else {
+                titleEl.textContent = `🎨 ${countryNames[countryKey] || '精選'} AI 經典漫畫紀念照`;
+            }
         }
 
         if (modal) {
@@ -787,8 +791,8 @@ const UIEngine = {
         }
     },
 
-    openLightbox(imgSrc) {
-        this.openComicModal(imgSrc);
+    openLightbox(imgSrc, spotTitle) {
+        this.openComicModal(imgSrc, spotTitle);
     },
 
     closeLightbox() {
