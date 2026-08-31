@@ -1,5 +1,5 @@
 # 🗺️ 旅遊🧳手書 (MD2itinerary - Markdown to Travel Handbook Engine)
-<!-- Version: v1.8 | Description: 支援成員解鎖前置選擇、Header 動態 AI 漫畫氣氛背景圖與 2 版面 DEMO。 -->
+<!-- Version: v1.9 | Description: 支援解鎖視窗一鍵清空快取與硬整重載，方便驗收未登入體驗。 -->
 
 > **Agent-Native 動態旅遊手冊生成器與 Web 渲染引擎**  
 > 自動將 Markdown 旅遊行程轉譯為含 AI 氣象預報、景點備案、KOL 開箱影音與地圖導航的 WOW 級行動裝置旅遊手冊。
