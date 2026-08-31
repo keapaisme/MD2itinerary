@@ -46,7 +46,7 @@ const UIEngine = {
     },
 
     bindMemberAvatarEvents() {
-        const avatars = document.querySelectorAll('.avatar-pill');
+        const avatars = document.querySelectorAll('.header-hero .avatar-pill');
         const currentMember = DataService.getCurrentMember();
 
         avatars.forEach(pill => {
@@ -68,9 +68,7 @@ const UIEngine = {
                 });
                 pill.style.background = 'rgba(255,255,255,0.15)';
                 pill.style.boxShadow = '0 0 10px rgba(255,255,255,0.3)';
-                
-                let roleMap = { "K": "成員1", "T": "成員2", "J": "成員3", "B": "成員4", "成員1": "成員1", "成員2": "成員2", "成員3": "成員3", "成員4": "成員4" };
-                alert(`👤 已切換當前發言身分：【${roleMap[name] || name}】\n往後您在景點卡片下的留言將以此身分發佈！`);
+                this.updateCurrentMemberPill();
                 
                 const payload = DataService._caches[DataService.currentCountry];
                 if (payload) this.renderItinerary(payload, DataService.currentCountry);

@@ -39,6 +39,81 @@ const DEFAULT_REAL_CHINA = {
     }
 };
 
+const DEFAULT_JAPAN = {
+    "title": "2026 東京關東經典 5日遊",
+    "subtitle": "10/10 (六) ~ 10/14 (三) · 淺草晴空塔・富士山河口湖・鎌倉大佛・澀谷Sky奢華體驗",
+    "sheet_name": "2026東京關東遊_公積金帳本",
+    "budget_total": 150000,
+    "days_count": 5,
+    "hotels": [
+        {
+            "date": "10/10 - 10/12 (Day 1 - Day 2)",
+            "name": "東京站丸之內飯店 (Marunouchi Hotel Tokyo)",
+            "address": "東京都千代田區丸之內 1-6-3",
+            "access": "JR 東京站丸之內北口直結步行 1 分鐘",
+            "phone": "+81 3-3217-1111",
+            "notes": "直通東京車站地鐵線，前往淺草、新宿極度便利，附贈精緻日式庭園早餐。"
+        },
+        {
+            "date": "10/12 - 10/14 (Day 3 - Day 4)",
+            "name": "澀谷 Stream 威斯汀酒店 (Shibuya Stream Hotel)",
+            "address": "東京都澀谷區澀谷 3-21-3",
+            "access": "澀谷站 C2 出口直結",
+            "phone": "+81 3-5778-9000",
+            "notes": "下樓即為澀谷 Stream 潮流美景區，步行 3 分鐘即可到達 Shibuya Sky 與澀谷十字路口。"
+        }
+    ],
+    "days": {
+        "1": {
+            "date": "10/10 六",
+            "theme": "📅 Day 1(10/10 六) 抵達東京成田與淺草下町夜漫步",
+            "defense": "成田 Express 直達市區, 體驗東京經典下町風情",
+            "timeline": [
+                { "time": "12:30 - 14:00", "title": "成田國際機場 ➔ 東京站 / 淺草", "desc": "搭乘 N'EX 成田特快直達東京站，入住飯店辦理 Check-in。", "event_type": "activity", "is_indoor": true },
+                { "time": "15:00 - 17:30", "title": "淺草寺與雷門老街漫步", "desc": "參觀東京最古老寺廟淺草寺，走訪仲見世通商店街品嚐人形燒。", "event_type": "activity", "is_indoor": false },
+                { "time": "18:30 - 21:00", "title": "東京晴空塔 (Tokyo Skytree) 展望台夜景", "desc": "登頂 350M 展望台俯瞰東京夜景，夜間照明美不勝收。", "event_type": "activity", "is_indoor": true }
+            ]
+        },
+        "2": {
+            "date": "10/11 日",
+            "theme": "📅 Day 2(10/11 日) 富士山河口湖全景絕景一日漫遊",
+            "defense": "富士回遊特快直達, 欣賞富士山倒影與楓葉大道",
+            "timeline": [
+                { "time": "08:30 - 10:30", "title": "新宿 ➔ 河口湖 (富士回遊特快)", "desc": "搭乘直達特快列車直達河口湖站。", "event_type": "transport", "is_indoor": false },
+                { "time": "11:00 - 13:30", "title": "新倉山淺間公園與忠靈塔遠眺富士山", "desc": "爬上 398 階梯拍攝富士山與五重塔經典打卡風景。", "event_type": "activity", "is_indoor": false },
+                { "time": "14:30 - 17:00", "title": "河口湖大石公園與全景纜車", "desc": "漫步湖畔花園，乘坐纜車至天上山公園俯瞰河口湖全貌。", "event_type": "activity", "is_indoor": false }
+            ]
+        },
+        "3": {
+            "date": "10/12 一",
+            "theme": "📅 Day 3(10/12 一) 鎌倉古都古神社與江之島海岸線慢活",
+            "defense": "江之電海岸鐵道體驗, 古都神社與灌籃高手平交道打卡",
+            "timeline": [
+                { "time": "09:00 - 10:00", "title": "東京 ➔ 鎌倉 (JR 湘南新宿線)", "desc": "搭乘直達列車抵達古都鎌倉。", "event_type": "transport", "is_indoor": false },
+                { "time": "10:30 - 12:30", "title": "高德院鎌倉大佛與鶴岡八幡宮", "desc": "參觀國寶青銅大佛與鎌倉幕府時期古老神社。", "event_type": "activity", "is_indoor": false },
+                { "time": "14:00 - 17:00", "title": "江之電高校前平交道與江之島夕陽漫步", "desc": "搭乘江之電打卡灌籃高手經典名場面，前往江之島遠眺相模灣夕陽。", "event_type": "activity", "is_indoor": false }
+            ]
+        },
+        "4": {
+            "date": "10/13 二",
+            "theme": "📅 Day 4(10/13 二) 澀谷潮流心臟與 Shibuya Sky 天空展望台", "defense": "澀谷購物潮流中心, 360 度無死角展望露台俯瞰東京",
+            "timeline": [
+                { "time": "10:00 - 13:00", "title": "澀谷十字路口與潮流商場逛街 (Shibuya Parco / Scramble Square)", "desc": "體驗全球最繁忙十字路口，漫步 Nintendo TOKYO 與寶可夢中心。", "event_type": "activity", "is_indoor": true },
+                { "time": "14:30 - 17:00", "title": "明治神宮與表參道精品街漫步", "desc": "參觀森林包圍的明治神宮，隨後漫步表參道建築群與特色咖啡館。", "event_type": "activity", "is_indoor": false },
+                { "time": "17:30 - 19:30", "title": "Shibuya Sky 45F 露天展望台夕陽與夜景", "desc": "登頂 229 公尺高空，享受 360 度開放式露天夕陽美景。", "event_type": "activity", "is_indoor": true }
+            ]
+        },
+        "5": {
+            "date": "10/14 三",
+            "theme": "📅 Day 5(10/14 三) 銀座奢華漫步與免稅伴手禮採買返航", "defense": "銀座免稅品採購, N'EX 快適回程",
+            "timeline": [
+                { "time": "10:00 - 12:30", "title": "銀座 Six 與伊東屋文具精品採買", "desc": "漫步銀座中央通，採購精緻伴手禮與文房具。", "event_type": "activity", "is_indoor": true },
+                { "time": "13:30 - 15:30", "title": "東京站 / 淺草 ➔ 成田國際機場 (N'EX 特快)", "desc": "搭乘成田特快返航，圓滿結束 5 日東京關東奢華漫遊。", "event_type": "transport", "is_indoor": false }
+            ]
+        }
+    }
+};
+
 const DataService = {
     _caches: {},
     currentCountry: 'japan',
@@ -69,7 +144,9 @@ const DataService = {
             return DEFAULT_REAL_CHINA;
         }
 
-        return null;
+        // 極速降級備用資料 (確保 100% 不白屏卡死)
+        this._caches['japan'] = DEFAULT_JAPAN;
+        return DEFAULT_JAPAN;
     },
 
     async getTransport() {
