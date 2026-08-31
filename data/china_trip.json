@@ -1,22 +1,412 @@
 {
-    "1": {
-        "date": "9/15 二",
-        "theme": "上海外灘夜景與武康路洋房漫步",
-        "defense": "落地機場專車接送,避免地鐵塞車",
-        "timeline": [
-            { "time": "14:00 - 15:30", "title": "浦東機場 ➔ 武康路歷史文化街區", "desc": "專車直達徐匯區，入住隱秀歷史洋房飯店。", "duration": "1.5 小時", "event_type": "transport" },
-            { "time": "16:00 - 18:30", "title": "武康大樓與安福路文青雜貨慢逛 (室內文創)", "desc": "漫步梧桐樹下，採購獨立設計師器皿與文創精品。", "duration": "2.5 小時", "event_type": "activity" },
-            { "time": "19:00 - 21:00", "title": "外灘萬國建築群與黃浦江遊船夜景", "desc": "登船飽覽陸家嘴摩天大樓與萬國建築群璀璨燈火。", "duration": "2 小時", "event_type": "activity" }
-        ]
-    },
-    "2": {
-        "date": "9/16 水",
-        "theme": "蘇州園林與古鎮水鄉慢活",
-        "defense": "高鐵對號座 25 分鐘直達,避開公路塞車",
-        "timeline": [
-            { "time": "09:00 - 09:30", "title": "上海虹橋 ➔ 蘇州站 (高鐵特快)", "desc": "搭乘極速高鐵，25 分鐘舒適抵達蘇州古城。", "duration": "30 分鐘", "event_type": "transport" },
-            { "time": "10:00 - 12:30", "title": "拙政園與蘇州博物館 (大師貝聿銘經典)", "desc": "參觀世界文化遺產江南古典園林代表與建築藝術。", "duration": "2.5 小時", "event_type": "activity" },
-            { "time": "14:00 - 17:00", "title": "平江路歷史街區與搖櫓船漫遊", "desc": "沿小橋流水人家品嚐蘇式糕點與評彈茶館體驗。", "duration": "3 小時", "event_type": "activity" }
-        ]
+    "title": "2026 中國大理江南古鎮 7日遊",
+    "subtitle": "9/15 (二) ~ 9/21 (一) · 上海・蘇州・大理洱海古典水鄉巡禮",
+    "sheet_name": "2026大理江南水鄉遊_公積金帳本",
+    "budget_total": 10625,
+    "days_count": 7,
+    "hotels": [
+        {
+            "date": "9/15 - 9/17 (Day 1 - Day 2)",
+            "name": "上海隱秀歷史洋房飯店 (Hidden House Shanghai)",
+            "address": "上海市徐匯區武康路 108 號",
+            "access": "地鐵 10 / 11 號線交通大學站 7 號出口",
+            "phone": "+86 21 6431 8888",
+            "notes": "梧桐樹下民國歷史老洋房，獨立花園與文青美學設計。"
+        },
+        {
+            "date": "9/17 - 9/21 (Day 3 - Day 7)",
+            "name": "大理雙廊海景第一排客棧 (Dali Double Waves Resort)",
+            "address": "雲南省大理白族自治州大理市雙廊鎮環海東路 68 號",
+            "access": "大理鳳儀機場專車直達（車程約 40 分鐘）",
+            "phone": "+86 872 268 9999",
+            "notes": "正對洱海與蒼山，每房皆有陽台觀海浴缸，含白族特色下午茶。"
+        }
+    ],
+    "days": {
+        "1": {
+            "date": "9/15 二",
+            "theme": "📅 Day 1(9/15 二) 上海外灘夜景與武康路洋房漫步",
+            "defense": "落地機場專車接送,避開地鐵通勤塞車",
+            "timeline": [
+                {
+                    "time": "14:00 - 15:30",
+                    "title": "浦東機場 ➔ 武康路歷史文化街區",
+                    "desc": "專車直達徐匯區，入住隱秀歷史洋房飯店。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=浦東機場 ➔ 武康路歷史文化街區+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=浦東機場 ➔ 武康路歷史文化街區+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "浦東機場 ➔ 武康路歷史文化街區 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "浦東機場 ➔ 武康路歷史文化街區 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "16:00 - 18:30",
+                    "title": "武康大樓與安福路文青雜貨慢逛",
+                    "desc": "漫步梧桐樹下，採購獨立設計師器皿與文創精品。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=武康大樓與安福路文青雜貨慢逛+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=武康大樓與安福路文青雜貨慢逛+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "武康大樓與安福路文青雜貨慢逛 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "武康大樓與安福路文青雜貨慢逛 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "19:00 - 21:00",
+                    "title": "外灘萬國建築群與黃浦江遊船夜景",
+                    "desc": "登船飽覽陸家嘴摩天大樓與萬國建築群璀璨燈火。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=外灘萬國建築群與黃浦江遊船夜景+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=外灘萬國建築群與黃浦江遊船夜景+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "外灘萬國建築群與黃浦江遊船夜景 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "外灘萬國建築群與黃浦江遊船夜景 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "date": "9/16 水",
+            "theme": "📅 Day 2(9/16 水) 蘇州園林與古鎮水鄉慢活",
+            "defense": "高鐵特快 25 分鐘直達古城,避開公路塞車",
+            "timeline": [
+                {
+                    "time": "09:00 - 09:30",
+                    "title": "上海虹橋 ➔ 蘇州站 (高鐵特快)",
+                    "desc": "搭乘極速高鐵，25 分鐘舒適抵達蘇州古城。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=上海虹橋 ➔ 蘇州站 (高鐵特快)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=上海虹橋 ➔ 蘇州站 (高鐵特快)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "上海虹橋 ➔ 蘇州站 (高鐵特快) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "上海虹橋 ➔ 蘇州站 (高鐵特快) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "title": "拙政園與蘇州博物館 (大師貝聿銘經典)",
+                    "desc": "參觀世界文化遺產江南古典園林代表與建築藝術。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=拙政園與蘇州博物館 (大師貝聿銘經典)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=拙政園與蘇州博物館 (大師貝聿銘經典)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "拙政園與蘇州博物館 (大師貝聿銘經典) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "拙政園與蘇州博物館 (大師貝聿銘經典) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:00",
+                    "title": "平江路歷史街區與搖櫓船漫遊",
+                    "desc": "沿小橋流水人家品嚐蘇式糕點與評彈茶館體驗。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=平江路歷史街區與搖櫓船漫遊+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=平江路歷史街區與搖櫓船漫遊+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "平江路歷史街區與搖櫓船漫遊 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "平江路歷史街區與搖櫓船漫遊 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "date": "9/17 木",
+            "theme": "📅 Day 3(9/17 木) 飛赴雲南大理・洱海海景飯店 Check-in",
+            "defense": "跨省飛躍! 抵達風花雪月大理古城",
+            "timeline": [
+                {
+                    "time": "10:00 - 13:30",
+                    "title": "飛機大直達(上海 ➔ 大理鳳儀機場)",
+                    "desc": "飛越雲貴高原，抵達大理洱海之畔。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：高原晴朗 23°C · 降雨機率 10% · 紫外線較強",
+                    "kol_link": "https://www.youtube.com/results?search_query=大理洱海+雙廊+環湖自駕",
+                    "official_link": "https://www.google.com/search?q=大理洱海旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "喜洲白族扎染體驗館",
+                            "desc": "室內體驗千年白族手作藍染藝術與古宅奉茶。"
+                        },
+                        {
+                            "title": "大理床單廠藝文特區室內展覽館",
+                            "desc": "老舊紡織廠活化的獨立手作市集與畫廊。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:30 - 17:30",
+                    "title": "雙廊古鎮與洱海海景咖啡慢時光",
+                    "desc": "入住雙廊海景第一排客棧，平視蔚藍洱海與蒼山山脈。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：高原晴朗 23°C · 降雨機率 10% · 紫外線較強",
+                    "kol_link": "https://www.youtube.com/results?search_query=大理洱海+雙廊+環湖自駕",
+                    "official_link": "https://www.google.com/search?q=大理洱海旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "喜洲白族扎染體驗館",
+                            "desc": "室內體驗千年白族手作藍染藝術與古宅奉茶。"
+                        },
+                        {
+                            "title": "大理床單廠藝文特區室內展覽館",
+                            "desc": "老舊紡織廠活化的獨立手作市集與畫廊。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "date": "9/18 金",
+            "theme": "📅 Day 4(9/18 金) 洱海環海西路敞篷車慢巡與喜洲古鎮",
+            "defense": "白族藍染歷史與喜洲粑粑品嚐",
+            "timeline": [
+                {
+                    "time": "09:30 - 12:00",
+                    "title": "喜洲古鎮與轉角樓打卡",
+                    "desc": "漫步白族民居建築群，體驗扎染工藝與喜洲粑粑。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=喜洲古鎮與轉角樓打卡+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=喜洲古鎮與轉角樓打卡+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "喜洲古鎮與轉角樓打卡 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "喜洲古鎮與轉角樓打卡 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:30",
+                    "title": "廊橋與生態廊道單車騎行",
+                    "desc": "在洱海最美麗的生態廊道騎行，感受微風吹拂。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=廊橋與生態廊道單車騎行+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=廊橋與生態廊道單車騎行+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "廊橋與生態廊道單車騎行 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "廊橋與生態廊道單車騎行 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
+            "date": "9/19 土",
+            "theme": "📅 Day 5(9/19 土) 蒼山索道登頂與寂照庵素齋",
+            "defense": "登高遠眺洱海全景與網紅多肉植物古寺",
+            "timeline": [
+                {
+                    "time": "09:00 - 12:00",
+                    "title": "感通索道登蒼山與清碧溪漫步",
+                    "desc": "乘索道穿過雲霧，俯瞰大理古城與洱海全貌。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=感通索道登蒼山與清碧溪漫步+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=感通索道登蒼山與清碧溪漫步+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "感通索道登蒼山與清碧溪漫步 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "感通索道登蒼山與清碧溪漫步 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "12:30 - 14:30",
+                    "title": "寂照庵享用精緻多肉素齋",
+                    "desc": "體驗全中國最美多肉植物寺廟與禪意午餐。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=寂照庵享用精緻多肉素齋+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=寂照庵享用精緻多肉素齋+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "寂照庵享用精緻多肉素齋 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "寂照庵享用精緻多肉素齋 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "6": {
+            "date": "9/20 日",
+            "theme": "📅 Day 6(9/20 日) 大理古城洋人街與人民路夜生活",
+            "defense": "漫步千年古城牆與手作民謠酒吧",
+            "timeline": [
+                {
+                    "time": "10:00 - 13:00",
+                    "title": "大理古城五華樓與床單廠文創園",
+                    "desc": "逛舊工廠活化的手作文創市集與獨立書店。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：高原晴朗 23°C · 降雨機率 10% · 紫外線較強",
+                    "kol_link": "https://www.youtube.com/results?search_query=大理洱海+雙廊+環湖自駕",
+                    "official_link": "https://www.google.com/search?q=大理洱海旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "喜洲白族扎染體驗館",
+                            "desc": "室內體驗千年白族手作藍染藝術與古宅奉茶。"
+                        },
+                        {
+                            "title": "大理床單廠藝文特區室內展覽館",
+                            "desc": "老舊紡織廠活化的獨立手作市集與畫廊。"
+                        }
+                    ]
+                },
+                {
+                    "time": "19:00 - 22:00",
+                    "title": "人民路民謠酒吧與清酒吧音樂饗宴",
+                    "desc": "聆聽在地獨立音樂人創作，享受涼爽古城夜晚。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=人民路民謠酒吧與清酒吧音樂饗宴+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=人民路民謠酒吧與清酒吧音樂饗宴+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "人民路民謠酒吧與清酒吧音樂饗宴 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "人民路民謠酒吧與清酒吧音樂饗宴 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "7": {
+            "date": "9/21 一",
+            "theme": "📅 Day 7(9/21 一) 滿載伴手禮與返程飛航",
+            "defense": "完美返航,帶著風花雪月的美好回憶",
+            "timeline": [
+                {
+                    "time": "09:00 - 11:00",
+                    "title": "採購雲南普洱茶與鮮花餅伴手禮",
+                    "desc": "採買新鮮現烤嘉華鮮花餅與老普洱茶餅。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=採購雲南普洱茶與鮮花餅伴手禮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=採購雲南普洱茶與鮮花餅伴手禮+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "採購雲南普洱茶與鮮花餅伴手禮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "採購雲南普洱茶與鮮花餅伴手禮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:00 - 16:30",
+                    "title": "大理機場返航",
+                    "desc": "搭機順利返航，圓滿結束 7 日水鄉與高原之旅。 | ## 🏨 飯店住宿 | **9/15 - 9/17 (Day 1 - Day 2)**: | **名稱**: 上海隱秀歷史洋房飯店 (Hidden House Shanghai) | **地址**: 上海市徐匯區武康路 108 號 | **交通**: 地鐵 10 / 11 號線交通大學站 7 號出口 | **電話**: +86 21 6431 8888 | **特色**: 梧桐樹下民國歷史老洋房，獨立花園與文青美學設計。 | **9/17 - 9/21 (Day 3 - Day 7)**: | **名稱**: 大理雙廊海景第一排客棧 (Dali Double Waves Resort) | **地址**: 雲南省大理白族自治州大理市雙廊鎮環海東路 68 號 | **交通**: 大理鳳儀機場專車直達（車程約 40 分鐘） | **電話**: +86 872 268 9999 | **特色**: 正對洱海與蒼山，每房皆有陽台觀海浴缸，含白族特色下午茶。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：高原晴朗 23°C · 降雨機率 10% · 紫外線較強",
+                    "kol_link": "https://www.youtube.com/results?search_query=大理洱海+雙廊+環湖自駕",
+                    "official_link": "https://www.google.com/search?q=大理洱海旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "喜洲白族扎染體驗館",
+                            "desc": "室內體驗千年白族手作藍染藝術與古宅奉茶。"
+                        },
+                        {
+                            "title": "大理床單廠藝文特區室內展覽館",
+                            "desc": "老舊紡織廠活化的獨立手作市集與畫廊。"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

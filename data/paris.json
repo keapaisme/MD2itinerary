@@ -1,17 +1,25 @@
 {
     "title": "Paris 7 Days Eiffel & Louvre Luxury Tour",
-    "subtitle": "10/12 (Mon) ~ 10/18 (Sun) · Eiffel Tower, Louvre Museum & Palace of Versailles",
+    "subtitle": "10/12 (Mon) ~ 10/18 (Sun) · Eiffel Tower, Louvre Museum, Versailles & Montmartre 7-Day Experience",
     "sheet_name": "Paris_Luxury_Tour_Budget",
     "budget_total": 3000,
-    "days_count": 3,
+    "days_count": 7,
     "hotels": [
         {
-            "name": "Ritz Paris (Palace Hotel)",
-            "date": "10/12 (Mon) ~ 10/18 (Sun) · 6 Nights",
+            "date": "10/12 - 10/15 (Day 1 - Day 3)",
+            "name": "Ritz Paris (巴黎麗茲酒店)",
             "address": "15 Place Vendôme, 75001 Paris, France",
-            "access": "Metro Line 3, 7, 8 (Opéra Station)",
-            "notes": "Historic luxury hotel at Place Vendôme with Michelin dining.",
-            "phone": "+33 1 43 16 30 30"
+            "access": "Metro Line 1, 7, 14 (Pyramides / Opéra Station)",
+            "phone": "+33 1 43 16 30 30",
+            "notes": "旺多姆廣場經典宮殿級奢華酒店，配備香奈兒水療與星級頂級甜點服務。"
+        },
+        {
+            "date": "10/15 - 10/18 (Day 4 - Day 7)",
+            "name": "Hotel Le Meurice Paris (莫里斯酒店)",
+            "address": "228 Rue de Rivoli, 75001 Paris, France",
+            "access": "Metro Line 1 (Tuileries Station)",
+            "phone": "+33 1 44 58 10 10",
+            "notes": "正對杜樂麗花園，步行直達盧浮宮與協和廣場，提供 Alain Ducasse 操刀之法式美饌早餐。"
         }
     ],
     "days": {
@@ -27,17 +35,17 @@
                     "duration": "",
                     "event_type": "transport",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=CDG Airport -> Ritz Paris Hotel Check-in+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=CDG Airport -> Ritz Paris Hotel Check-in+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=CDG Airport -> Ritz Paris Hotel Check-in+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=CDG Airport -> Ritz Paris Hotel Check-in+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "CDG Airport -> Ritz Paris Hotel Check-in 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "CDG Airport -> Ritz Paris Hotel Check-in 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
@@ -48,17 +56,17 @@
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Louvre Museum Afternoon Tour+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Louvre Museum Afternoon Tour+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：多雲 19°C · 降雨機率 15% · 微風",
+                    "kol_link": "https://www.youtube.com/results?search_query=Louvre+Museum+Paris+Vlog",
+                    "official_link": "https://www.louvre.fr/en",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "Musée de l'Orangerie (橘園美術館)",
+                            "desc": "室內展出莫內巨幅睡蓮巨作，安靜舒適。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "Palais-Royal (皇家宮殿迴廊)",
+                            "desc": "遮篷室內藝術迴廊與特色精品黑白柱藝廊。"
                         }
                     ]
                 },
@@ -69,17 +77,17 @@
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Seine River Sunset Dinner Cruise+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Seine River Sunset Dinner Cruise+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Seine River Sunset Dinner Cruise+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Seine River Sunset Dinner Cruise+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "Seine River Sunset Dinner Cruise 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "Seine River Sunset Dinner Cruise 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 }
@@ -97,17 +105,17 @@
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Eiffel Tower Summit Access+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Eiffel Tower Summit Access+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Eiffel Tower Summit Access+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Eiffel Tower Summit Access+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "Eiffel Tower Summit Access 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "Eiffel Tower Summit Access 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
@@ -118,17 +126,17 @@
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Champs-Élysées & Arc de Triomphe+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Champs-Élysées & Arc de Triomphe+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Champs-Élysées & Arc de Triomphe+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Champs-Élysées & Arc de Triomphe+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "Champs-Élysées & Arc de Triomphe 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "Champs-Élysées & Arc de Triomphe 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 }
@@ -146,17 +154,234 @@
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Palace of Versailles Direct Express+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Palace of Versailles Direct Express+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Palace of Versailles Direct Express+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Palace of Versailles Direct Express+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "Palace of Versailles Direct Express 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "Palace of Versailles Direct Express 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "16:30 - 19:30",
+                    "title": "St. Germain des Prés Café Culture",
+                    "desc": "Enjoy afternoon tea at Café de Flore.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=St. Germain des Prés Café Culture+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=St. Germain des Prés Café Culture+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "St. Germain des Prés Café Culture 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "St. Germain des Prés Café Culture 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "date": "10/15 Thu",
+            "theme": "Day 4 (10/15 Thu) Montmartre & Sacré-Cœur Artist District",
+            "defense": "Bohemian Art Culture & Panoramic Paris View",
+            "timeline": [
+                {
+                    "time": "10:00 - 12:30",
+                    "title": "Sacré-Cœur Basilica & Dome Climb",
+                    "desc": "Admire panoramic views of Paris from the highest point in Montmartre.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Sacré-Cœur Basilica & Dome Climb+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Sacré-Cœur Basilica & Dome Climb+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Sacré-Cœur Basilica & Dome Climb 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Sacré-Cœur Basilica & Dome Climb 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:00",
+                    "title": "Place du Tertre Artist Square & Amélie Café",
+                    "desc": "Portrait drawing by local artists and vintage cafe experience.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Place du Tertre Artist Square & Amélie Café+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Place du Tertre Artist Square & Amélie Café+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Place du Tertre Artist Square & Amélie Café 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Place du Tertre Artist Square & Amélie Café 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
+            "date": "10/16 Fri",
+            "theme": "Day 5 (10/16 Fri) Musée d'Orsay & Latin Quarter Exploration",
+            "defense": "Impressionist Masterpieces & Historical Latin Quarter",
+            "timeline": [
+                {
+                    "time": "09:30 - 12:30",
+                    "title": "Musée d'Orsay Private Tour",
+                    "desc": "Discover masterpieces by Monet, Van Gogh, and Renoir.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Musée d'Orsay Private Tour+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Musée d'Orsay Private Tour+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Musée d'Orsay Private Tour 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Musée d'Orsay Private Tour 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:30 - 18:00",
+                    "title": "Shakespeare & Company Bookstore & Panthéon",
+                    "desc": "Historic English bookstore and mausoleum of French national heroes.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Shakespeare & Company Bookstore & Panthéon+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Shakespeare & Company Bookstore & Panthéon+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Shakespeare & Company Bookstore & Panthéon 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Shakespeare & Company Bookstore & Panthéon 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "6": {
+            "date": "10/17 Sat",
+            "theme": "Day 6 (10/17 Sat) Day Trip to Champagne Region (Épernay & Reims)",
+            "defense": "Luxury Champagne Tasting & Royal Cathedral",
+            "timeline": [
+                {
+                    "time": "08:30 - 16:30",
+                    "title": "Private Transfer to Moët & Chandon Cellars",
+                    "desc": "Tour historic underground chalk cellars and taste fine vintage champagne.",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Private Transfer to Moët & Chandon Cellars+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Private Transfer to Moët & Chandon Cellars+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Private Transfer to Moët & Chandon Cellars 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Private Transfer to Moët & Chandon Cellars 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "18:00 - 21:00",
+                    "title": "Return to Paris for Michelin 2-Star Dinner",
+                    "desc": "Celebratory French gastronomy evening.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Return to Paris for Michelin 2-Star Dinner+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Return to Paris for Michelin 2-Star Dinner+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Return to Paris for Michelin 2-Star Dinner 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Return to Paris for Michelin 2-Star Dinner 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "7": {
+            "date": "10/18 Sun",
+            "theme": "Day 7 (10/18 Sun) Le Marais Pastry Tour & Departure",
+            "defense": "Gourmet French Pastries & CDG Departure",
+            "timeline": [
+                {
+                    "time": "10:00 - 13:00",
+                    "title": "Le Marais Boutiques & Pierre Hermé Macarons",
+                    "desc": "Gourmet souvenir shopping and world-famous pastry tasting.",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Le Marais Boutiques & Pierre Hermé Macarons+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Le Marais Boutiques & Pierre Hermé Macarons+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Le Marais Boutiques & Pierre Hermé Macarons 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Le Marais Boutiques & Pierre Hermé Macarons 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "15:00 - 18:00",
+                    "title": "Luxury Transfer to CDG Airport",
+                    "desc": "Smooth departure back home with unforgettable Paris memories. | ## 🏨 飯店住宿 | **10/12 - 10/15 (Day 1 - Day 3)**: | **名稱**: Ritz Paris (巴黎麗茲酒店) | **地址**: 15 Place Vendôme, 75001 Paris, France | **交通**: Metro Line 1, 7, 14 (Pyramides / Opéra Station) | **電話**: +33 1 43 16 30 30 | **特色**: 旺多姆廣場經典宮殿級奢華酒店，配備香奈兒水療與星級頂級甜點服務。 | **10/15 - 10/18 (Day 4 - Day 7)**: | **名稱**: Hotel Le Meurice Paris (莫里斯酒店) | **地址**: 228 Rue de Rivoli, 75001 Paris, France | **交通**: Metro Line 1 (Tuileries Station) | **電話**: +33 1 44 58 10 10 | **特色**: 正對杜樂麗花園，步行直達盧浮宮與協和廣場，提供 Alain Ducasse 操刀之法式美饌早餐。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=Luxury Transfer to CDG Airport+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=Luxury Transfer to CDG Airport+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "Luxury Transfer to CDG Airport 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "Luxury Transfer to CDG Airport 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 }

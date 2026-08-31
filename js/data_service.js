@@ -5,22 +5,37 @@
  */
 
 const DEFAULT_REAL_CHINA = {
-    "title": "2026/10 杭州→福建(武夷山) 露營車自駕遊",
-    "subtitle": "10/01 (四) ~ 10/07 (三) · 杭州・桐廬・千島湖・開化・江山・浦城・武夷山 7日房車慢遊",
-    "sheet_name": "杭州福建露營車7日遊_公積金帳本",
-    "budget_total": 10570,
+    "title": "2026 中國大理江南古鎮 7日遊",
+    "subtitle": "9/15 (二) ~ 9/21 (一) · 上海・蘇州・大理洱海古典水鄉巡禮",
+    "sheet_name": "2026大理江南水鄉遊_公積金帳本",
+    "budget_total": 10625,
     "days_count": 7,
-    "days": {
-        "1": {
-            "date": "10/1 (十一黃金周)",
-            "theme": "杭州 → 桐廬（約75km，車程約1.5小時）",
-            "defense": "房車自駕離線自由停靠, 避開十一尖峰人潮車流",
-            "timeline": [
-                { "time": "09:00 - 11:00", "title": "🚐 房車自駕路線", "desc": "市區出發 → 錢江路 → 秋石高架 → 杭新景高速 → 桐廬出口下高速。", "duration": "約 1.5 小時", "event_type": "transport", "is_indoor": false },
-                { "time": "11:00 - 13:00", "title": "📍 景點行程: 瑤琳仙境", "desc": "大型溶洞景觀，適合作為第一天輕鬆行程的收尾", "duration": "約 2 小時", "event_type": "activity", "is_indoor": true },
-                { "time": "18:00 之後", "title": "⛺ 房車駐車營地與晚餐", "desc": "天目溪浪石埠／富春江沿岸露營點，晚餐採買河鮮自炊", "duration": "過夜駐車", "event_type": "activity", "is_indoor": true }
-            ]
+    "hotels": [
+        {
+            "date": "9/15 - 9/17 (Day 1 - Day 2)",
+            "name": "上海隱秀歷史洋房飯店 (Hidden House Shanghai)",
+            "address": "上海市徐匯區武康路 108 號",
+            "access": "地鐵 10 / 11 號線交通大學站 7 號出口",
+            "phone": "+86 21 6431 8888",
+            "notes": "梧桐樹下民國歷史老洋房，獨立花園與文青美學設計。"
+        },
+        {
+            "date": "9/17 - 9/21 (Day 3 - Day 7)",
+            "name": "大理雙廊海景第一排客棧 (Dali Double Waves Resort)",
+            "address": "雲南省大理白族自治州大理市雙廊鎮環海東路 68 號",
+            "access": "大理鳳儀機場專車直達（車程約 40 分鐘）",
+            "phone": "+86 872 268 9999",
+            "notes": "正對洱海與蒼山，每房皆有陽台觀海浴缸，含白族特色下午茶。"
         }
+    ],
+    "days": {
+        "1": { "date": "9/15 二", "theme": "📅 Day 1(9/15 二) 上海外灘夜景與武康路洋房漫步", "defense": "落地機場專車接送,避開地鐵通勤塞車", "timeline": [{ "time": "14:00 - 15:30", "title": "浦東機場 ➔ 武康路歷史文化街區", "desc": "專車直達徐匯區，入住隱秀歷史洋房飯店。", "event_type": "activity", "is_indoor": true }, { "time": "16:00 - 18:30", "title": "武康大樓與安福路文青雜貨慢逛", "desc": "漫步梧桐樹下，採購獨立設計師器皿與文創精品。", "event_type": "activity", "is_indoor": false }, { "time": "19:00 - 21:00", "title": "外灘萬國建築群與黃浦江遊船夜景", "desc": "登船飽覽陸家嘴摩天大樓與萬國建築群璀璨燈火。", "event_type": "activity", "is_indoor": true }] },
+        "2": { "date": "9/16 水", "theme": "📅 Day 2(9/16 水) 蘇州園林與古鎮水鄉慢活", "defense": "高鐵特快 25 分鐘直達古城,避開公路塞車", "timeline": [{ "time": "09:00 - 09:30", "title": "上海虹橋 ➔ 蘇州站 (高鐵特快)", "desc": "搭乘極速高鐵，25 分鐘舒適抵達蘇州古城。", "event_type": "transport", "is_indoor": false }, { "time": "10:00 - 12:30", "title": "拙政園與蘇州博物館 (大師貝聿銘經典)", "desc": "參觀世界文化遺產江南古典園林代表與建築藝術。", "event_type": "activity", "is_indoor": true }, { "time": "14:00 - 17:00", "title": "平江路歷史街區與搖櫓船漫遊", "desc": "沿小橋流水人家品嚐蘇式糕點與評彈茶館體驗。", "event_type": "activity", "is_indoor": false }] },
+        "3": { "date": "9/17 木", "theme": "📅 Day 3(9/17 木) 飛赴雲南大理・洱海海景飯店 Check-in", "defense": "跨省飛躍! 抵達風花雪月大理古城", "timeline": [{ "time": "10:00 - 13:30", "title": "飛機大直達(上海 ➔ 大理鳳儀機場)", "desc": "飛越雲貴高原，抵達大理洱海之畔。", "event_type": "transport", "is_indoor": false }, { "time": "14:30 - 17:30", "title": "雙廊古鎮與洱海海景咖啡慢時光", "desc": "入住雙廊海景第一排客棧，平視蔚藍洱海與蒼山山脈。", "event_type": "activity", "is_indoor": true }] },
+        "4": { "date": "9/18 金", "theme": "📅 Day 4(9/18 金) 洱海環海西路敞篷車慢巡與喜洲古鎮", "defense": "白族藍染歷史與喜洲粑粑品嚐", "timeline": [{ "time": "09:30 - 12:00", "title": "喜洲古鎮與轉角樓打卡", "desc": "漫步白族民居建築群，體驗扎染工藝與喜洲粑粑。", "event_type": "activity", "is_indoor": false }, { "time": "14:00 - 17:30", "title": "廊橋與生態廊道單車騎行", "desc": "在洱海最美麗的生態廊道騎行，感受微風吹拂。", "event_type": "activity", "is_indoor": false }] },
+        "5": { "date": "9/19 土", "theme": "📅 Day 5(9/19 土) 蒼山索道登頂與寂照庵素齋", "defense": "登高遠眺洱海全景與網紅多肉植物古寺", "timeline": [{ "time": "09:00 - 12:00", "title": "感通索道登蒼山與清碧溪漫步", "desc": "乘索道穿過雲霧，俯瞰大理古城與洱海全貌。", "event_type": "activity", "is_indoor": false }, { "time": "12:30 - 14:30", "title": "寂照庵享用精緻多肉素齋", "desc": "體驗全中國最美多肉植物寺廟與禪意午餐。", "event_type": "activity", "is_indoor": true }] },
+        "6": { "date": "9/20 日", "theme": "📅 Day 6(9/20 日) 大理古城洋人街與人民路夜生活", "defense": "漫步千年古城牆與手作民謠酒吧", "timeline": [{ "time": "10:00 - 13:00", "title": "大理古城五華樓與床單廠文創園", "desc": "逛舊工廠活化的手作文創市集與獨立書店。", "event_type": "activity", "is_indoor": true }, { "time": "19:00 - 22:00", "title": "人民路民謠酒吧與清酒吧音樂饗宴", "desc": "聆聽在地獨立音樂人創作，享受涼爽古城夜晚。", "event_type": "activity", "is_indoor": true }] },
+        "7": { "date": "9/21 一", "theme": "📅 Day 7(9/21 一) 滿載伴手禮與返程飛航", "defense": "完美返航,帶著風花雪月的美好回憶", "timeline": [{ "time": "09:00 - 11:00", "title": "採購雲南普洱茶與鮮花餅伴手禮", "desc": "採買新鮮現烤嘉華鮮花餅與老普洱茶餅。", "event_type": "activity", "is_indoor": true }, { "time": "13:00 - 16:30", "title": "大理機場返航", "desc": "搭機順利返航，圓滿結束 7 日水鄉與高原之旅。", "event_type": "transport", "is_indoor": false }] }
     }
 };
 

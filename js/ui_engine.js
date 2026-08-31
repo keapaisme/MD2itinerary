@@ -98,8 +98,9 @@ const UIEngine = {
         const titleEl = document.querySelector('.hero-title');
         const subTitleEl = document.querySelector('.hero-subtitle');
 
-        if (titleEl && payload.title) {
-            titleEl.textContent = payload.title;
+        if (payload.title) {
+            document.title = `${payload.title} | 旅遊🧳手書`;
+            if (titleEl) titleEl.textContent = payload.title;
         }
         if (subTitleEl && payload.subtitle) {
             subTitleEl.textContent = payload.subtitle;

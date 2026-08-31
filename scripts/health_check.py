@@ -46,7 +46,8 @@ def health_check():
 
     days_map = data.get('days', data)
 
-    for day in range(1, 7):
+    days_count = data.get('days_count', len(days_map))
+    for day in range(1, days_count + 1):
         day_key = str(day)
         if day_key not in days_map:
             print(f"❌ 診斷失敗: itinerary.json 缺少 Day {day_key}")

@@ -1,47 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Agent-Native 動態 Universal Multilingual Parser (build_json.py v16.0 Full Intelligence Modal)
-全自動為每個景點注入：
-1. 🌤️ 當地時段氣候預報 (weather_forecast)
-2. 🎯 2 大彈性替代景點 (backup_spots)
-3. 🎥 KOL 達人實測與開箱 (kol_link)
-4. 🌐 景點官方/預約連結 (official_link)
+Agent-Native 動態 Universal Multilingual Parser (build_json.py v17.0 Full Hotel & Demo Pipeline)
+全自動解析 Universal Markdown（含 Day1~Day7 景點、時段氣候預報、2大彈性備案、KOL開箱影音與飯店住宿動態解析）
 """
 
 import os
 import re
 import json
-
-PARIS_HOTELS = [
-    {
-        "name": "Ritz Paris (Palace Hotel)",
-        "date": "10/12 (Mon) ~ 10/18 (Sun) · 6 Nights",
-        "address": "15 Place Vendôme, 75001 Paris, France",
-        "access": "Metro Line 3, 7, 8 (Opéra Station)",
-        "notes": "Historic luxury hotel at Place Vendôme with Michelin dining.",
-        "phone": "+33 1 43 16 30 30"
-    }
-]
-
-TAIWAN_HOTELS = [
-    {
-        "name": "墾丁南灣海景第一排客棧 (Kenting South Bay Inn)",
-        "date": "8/03 (一) · Day 1 晚",
-        "address": "屏東縣恆春鎮南灣路 226 號",
-        "access": "台26線屏鵝公路南灣段旁，附專用機車停放區",
-        "notes": "陽台直面沙灘海浪，步行 3 分鐘即達墾丁大街夜市。",
-        "phone": "+886 8-888-9999"
-    },
-    {
-        "name": "花蓮東大門夜市青旅 (Hualien Dongdamen Hostel)",
-        "date": "8/04 (二) · Day 2 晚",
-        "address": "花蓮縣花蓮市中山路 50 號",
-        "access": "花蓮市區核心，距東大門夜市步行 2 分鐘",
-        "notes": "設有騎行愛好者專用單車/機車保養工具箱與自助洗衣房。",
-        "phone": "+886 3-833-7777"
-    }
-]
 
 def generate_spot_intelligence(spot_title):
     t = spot_title.lower()
@@ -76,16 +42,6 @@ def generate_spot_intelligence(spot_title):
                 {"title": "東海岸國家風景區遊客中心", "desc": "設有巨型視聽放映室與海岸地質多媒體互動展區。"}
             ]
         }
-    elif "紅磚倉庫" in t or "橫濱" in t:
-        return {
-            "weather_forecast": "🌤️ 時段預報：晴朗 26°C · 降雨機率 10% · 港灣微風",
-            "kol_link": "https://www.youtube.com/results?search_query=橫濱紅磚倉庫+Vlog+開箱",
-            "official_link": "https://www.yokohama-akarenga.jp/",
-            "backup_spots": [
-                {"title": "橫濱地標塔大樓 69F 觀景台", "desc": "高空俯瞰橫濱港夜景，雨天室內全景玻璃視野極佳。"},
-                {"title": "橫濱合杯麵博物館 (泡麵博物館)", "desc": "手作專屬獨一無二杯麵體驗，室內趣味滿分。"}
-            ]
-        }
     elif "澀谷" in t or "sky" in t:
         return {
             "weather_forecast": "☀️ 時段預報：晴朗 27°C · 降雨機率 0% · 高空視野清晰良好",
@@ -96,122 +52,67 @@ def generate_spot_intelligence(spot_title):
                 {"title": "澀谷 PARCO 6F 動漫潮流館", "desc": "任天堂與神奇寶貝官方旗艦店，動漫迷避雨天堂。"}
             ]
         }
+    elif "富士山" in t or "河口湖" in t:
+        return {
+            "weather_forecast": "🌤️ 時段預報：晴朗 22°C · 降雨機率 10% · 能見度極佳觀富士山",
+            "kol_link": "https://www.youtube.com/results?search_query=富士山+河口湖+纜車+Vlog",
+            "official_link": "https://www.fujisan.ne.jp/",
+            "backup_spots": [
+                {"title": "河口湖音樂盒之森美術館", "desc": "歐式宮廷音樂盒博物館與室內花園庭園。"},
+                {"title": "富士山世界遺產中心", "desc": "全室內多媒體富士山地質與信仰文化展覽館。"}
+            ]
+        }
+    elif "louvre" in t or "羅浮宮" in t or "盧浮宮" in t:
+        return {
+            "weather_forecast": "🌤️ 時段預報：多雲 19°C · 降雨機率 15% · 微風",
+            "kol_link": "https://www.youtube.com/results?search_query=Louvre+Museum+Paris+Vlog",
+            "official_link": "https://www.louvre.fr/en",
+            "backup_spots": [
+                {"title": "Musée de l'Orangerie (橘園美術館)", "desc": "室內展出莫內巨幅睡蓮巨作，安靜舒適。"},
+                {"title": "Palais-Royal (皇家宮殿迴廊)", "desc": "遮篷室內藝術迴廊與特色精品黑白柱藝廊。"}
+            ]
+        }
+    elif "大理" in t or "洱海" in t:
+        return {
+            "weather_forecast": "🌤️ 時段預報：高原晴朗 23°C · 降雨機率 10% · 紫外線較強",
+            "kol_link": "https://www.youtube.com/results?search_query=大理洱海+雙廊+環湖自駕",
+            "official_link": "https://www.google.com/search?q=大理洱海旅遊指南",
+            "backup_spots": [
+                {"title": "喜洲白族扎染體驗館", "desc": "室內體驗千年白族手作藍染藝術與古宅奉茶。"},
+                {"title": "大理床單廠藝文特區室內展覽館", "desc": "老舊紡織廠活化的獨立手作市集與畫廊。"}
+            ]
+        }
     else:
         return {
-            "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-            "kol_link": f"https://www.youtube.com/results?search_query={spot_title}+旅遊開箱",
-            "official_link": f"https://www.google.com/search?q={spot_title}+景點介紹",
+            "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+            "kol_link": f"https://www.youtube.com/results?search_query={spot_title}+旅遊+開箱",
+            "official_link": f"https://www.google.com/search?q={spot_title}+旅遊指南",
             "backup_spots": [
-                {"title": "鄰近室內購物中心 / COREDO 商場", "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"},
-                {"title": "在地市立博物館 / 文創園區", "desc": "深入瞭解在地歷史文化的室內深度景點。"}
+                {"title": f"{spot_title} 鄰近歷史博物館/文化館", "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"},
+                {"title": f"{spot_title} 室內商場/特色風格咖啡館", "desc": "享用在地限定美食與咖啡休憩區。"}
             ]
         }
 
-def parse_real_hangzhou_china_trip_md(md_path, json_out_path):
-    if not os.path.exists(md_path):
-        print(f"❌ 錯誤: 找不到 Markdown 檔案 {md_path}")
-        return False
-
-    with open(md_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    title = "2026/10 杭州→福建(武夷山) 露營車自駕遊"
-    subtitle = "10/01 (四) ~ 10/07 (三) · 杭州・桐廬・千島湖・開化・江山・浦城・武夷山 7日房車慢遊"
-
-    days_raw = re.split(r'###\s*Day(\d+)｜([\d/]+)\s*([^\n]+)', content)
-    days_data = {}
-    total_budget_est = 0
-
-    for i in range(1, len(days_raw), 4):
-        day_num = days_raw[i].strip()
-        date_str = days_raw[i+1].strip()
-        theme_title = days_raw[i+2].strip()
-        day_block = days_raw[i+3]
-
-        timeline = []
-
-        route_match = re.search(r'\*\*交通路線\*\*：([^\n]+)', day_block)
-        if route_match:
-            intel = generate_spot_intelligence("房車自駕路線")
-            timeline.append({
-                "time": "09:00 - 11:00",
-                "title": "🚐 房車自駕路線",
-                "desc": route_match.group(1).strip(),
-                "duration": "",
-                "event_type": "transport",
-                "is_indoor": False,
-                "weather_forecast": intel["weather_forecast"],
-                "kol_link": intel["kol_link"],
-                "official_link": intel["official_link"],
-                "backup_spots": intel["backup_spots"]
+def parse_hotels_from_md(clean_content):
+    hotels = []
+    hotel_section = re.search(r'##\s*🏨?\s*飯店住宿\s*\n(.*)', clean_content, re.DOTALL)
+    if hotel_section:
+        sec_text = hotel_section.group(1)
+        items = re.findall(r'-\s*\*\*([^*]+)\*\*:\s*\n\s*-\s*\*\*名稱\*\*:\s*([^\n]+)\n\s*-\s*\*\*地址\*\*:\s*([^\n]+)\n\s*-\s*\*\*交通\*\*:\s*([^\n]+)\n\s*-\s*\*\*電話\*\*:\s*([^\n]+)\n\s*-\s*\*\*特色\*\*:\s*([^\n]+)', sec_text)
+        for date_str, name, address, access, phone, notes in items:
+            hotels.append({
+                "date": date_str.strip(),
+                "name": name.strip(),
+                "address": address.strip(),
+                "access": access.strip(),
+                "phone": phone.strip(),
+                "notes": notes.strip()
             })
-
-        spot_matches = re.findall(r'-\s*(?:首選|備案|備選\d*|必訪|景點|\*\*[^*]+\*\*)[：:]\s*([^\n]+)', day_block)
-        if spot_matches:
-            for idx, spot_txt in enumerate(spot_matches):
-                title_txt = f"📍 景點行程: {spot_txt.split('（')[0].replace('**', '')}"
-                intel = generate_spot_intelligence(title_txt)
-                timeline.append({
-                    "time": f"{11 + idx*2}:00 - {13 + idx*2}:00",
-                    "title": title_txt,
-                    "desc": spot_txt,
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": "館" in spot_txt or "博物館" in spot_txt or "室內" in spot_txt,
-                    "weather_forecast": intel["weather_forecast"],
-                    "kol_link": intel["kol_link"],
-                    "official_link": intel["official_link"],
-                    "backup_spots": intel["backup_spots"]
-                })
-
-        camp_match = re.search(r'\*\*駐車地與晚餐\*\*：([^\n]+)', day_block)
-        if camp_match:
-            intel = generate_spot_intelligence("房車駐車營地與晚餐")
-            timeline.append({
-                "time": "18:00 之後",
-                "title": "⛺ 房車駐車營地與晚餐",
-                "desc": camp_match.group(1).strip(),
-                "duration": "",
-                "event_type": "activity",
-                "is_indoor": True,
-                "weather_forecast": intel["weather_forecast"],
-                "kol_link": intel["kol_link"],
-                "official_link": intel["official_link"],
-                "backup_spots": intel["backup_spots"]
-            })
-
-        subtotal = 1500
-        subtotal_match = re.search(r'\|\s*\*\*小計\*\*\s*\|\s*\*\*約?(\d+)\*\*', day_block)
-        if subtotal_match:
-            subtotal = int(subtotal_match.group(1))
-
-        total_budget_est += subtotal
-
-        days_data[day_num] = {
-            "date": f"{date_str} (十一黃金周)",
-            "theme": theme_title,
-            "defense": "房車自駕離線自由停靠, 避開十一尖峰人潮車流",
-            "timeline": timeline
-        }
-
-    universal_payload = {
-        "title": title,
-        "subtitle": subtitle,
-        "sheet_name": "杭州福建露營車7日遊_公積金帳本",
-        "budget_total": total_budget_est if total_budget_est > 0 else 10625,
-        "days_count": len(days_data) if days_data else 7,
-        "days": days_data
-    }
-
-    with open(json_out_path, 'w', encoding='utf-8') as f:
-        json.dump(universal_payload, f, ensure_ascii=False, indent=4)
-
-    print(f"🎉 100% 成功解析真實 中國旅遊.md ➔ {json_out_path}")
-    return True
+    return hotels
 
 class MultilingualUniversalParser:
     @staticmethod
-    def parse(md_path, json_out_path, default_budget=150000, sheet_name="行程帳本", hotels=None):
+    def parse(md_path, json_out_path, default_budget=150000, sheet_name="行程帳本"):
         if not os.path.exists(md_path):
             print(f"❌ 錯誤: 找不到 Markdown 檔案 {md_path}")
             return False
@@ -222,7 +123,7 @@ class MultilingualUniversalParser:
         clean_content = re.sub(r'<!--.*?-->', '', content, flags=re.DOTALL).strip()
         lines = [l.strip() for l in clean_content.split('\n') if l.strip()]
 
-        title = "2026 日本東京 6日家庭防禦性自主遊"
+        title = "旅遊🧳手書"
         for line in lines:
             if line.startswith('#'):
                 title = line.replace('#', '').strip()
@@ -231,8 +132,10 @@ class MultilingualUniversalParser:
         subtitle = ""
         for line in lines:
             if any(k in line for k in ["副標題:", "副標題：", "Subtitle:", "サブタイトル:"]):
-                subtitle = re.sub(r'^(?:副標題[:：]|Subtitle[::]|サブタイトル[::])', '', line).strip()
+                subtitle = re.sub(r'^(?:副標題[:：]|Subtitle[:：]|サブタイトル[:：])', '', line).strip()
                 break
+
+        hotels = parse_hotels_from_md(clean_content)
 
         day_blocks = re.split(r'\n(?=(?:📅\s*Day|###\s*Day|Day\s*\d+|^\d+日目|^\d+일차))', clean_content, flags=re.MULTILINE|re.IGNORECASE)
 
@@ -281,10 +184,10 @@ class MultilingualUniversalParser:
 
                 event_type = "activity"
                 title_lower = spot_title.lower()
-                if any(k in title_lower for k in ["flight", "train", "nex", "n'ex", "metro", "bus", "transfer", "airport", "自駕", "高鐵", "電車", "火車", "巴士", "騎車"]):
+                if any(k in title_lower for k in ["flight", "train", "nex", "n'ex", "metro", "bus", "transfer", "airport", "自駕", "高鐵", "電車", "火車", "巴士", "騎車", "飛航", "飛機"]):
                     event_type = "transport"
 
-                is_indoor = any(k in title_lower or k in spot_desc.lower() for k in ["museum", "indoor", "hotel", "shopping", "restaurant", "dinner", "lunch", "室內", "博物館", "商場", "飯店", "古堡", "夜市"])
+                is_indoor = any(k in title_lower or k in spot_desc.lower() for k in ["museum", "indoor", "hotel", "shopping", "restaurant", "dinner", "lunch", "室內", "博物館", "商場", "飯店", "古堡", "夜市", "展覽"])
 
                 intel = generate_spot_intelligence(spot_title)
 
@@ -304,7 +207,7 @@ class MultilingualUniversalParser:
             days_data[day_num] = {
                 "date": date_str,
                 "theme": theme_title,
-                "defense": defense if defense else "Multilingual Auto-Parsed Defense Line",
+                "defense": defense if defense else "Agent-Native Multilingual Auto Defense Line",
                 "timeline": timeline
             }
 
@@ -321,84 +224,81 @@ class MultilingualUniversalParser:
         with open(json_out_path, 'w', encoding='utf-8') as f:
             json.dump(universal_payload, f, ensure_ascii=False, indent=4)
 
-        print(f"🌍 [Multilingual Universal Parser] 100% 清潔標題解析 MD ({os.path.basename(md_path)}) ➔ {json_out_path}")
+        print(f"🌍 [Multilingual Universal Parser] 100% 成功解析 MD ({os.path.basename(md_path)}) ➔ {json_out_path}")
         return True
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     v3_dir = os.path.dirname(script_dir)
     data_dir = os.path.join(v3_dir, 'data')
-    project_root = os.path.dirname(v3_dir)
 
-    # 1. 日本 MD
-    japan_md = os.path.join(data_dir, 'japan.md')
-    if not os.path.exists(japan_md):
-        japan_md = os.path.join(data_dir, '2026東京5日方案A.md')
-    if not os.path.exists(japan_md):
-        japan_md = os.path.join(project_root, '2026東京5日方案A.md')
-
+    # 1. 🇯🇵 日本東京關東 5 日 DEMO
+    japan_md = os.path.join(data_dir, 'DEMO_2026東京關東經典5日遊.md')
     if os.path.exists(japan_md):
         MultilingualUniversalParser.parse(
             japan_md,
             os.path.join(data_dir, 'japan.json'),
             150000,
-            "2026東京家庭遊_公積金帳本"
+            "2026東京關東遊_公積金帳本"
         )
         MultilingualUniversalParser.parse(
             japan_md,
             os.path.join(data_dir, 'itinerary.json'),
             150000,
-            "2026東京家庭遊_公積金帳本"
+            "2026東京關東遊_公積金帳本"
         )
 
-    # 2. 中國實體 MD
-    real_china_md = os.path.join(data_dir, 'DEMO_2026中國大理江南7日方案.md')
-    if not os.path.exists(real_china_md):
-        real_china_md = os.path.join(data_dir, '2026中國大理江南7日方案.md')
-
-    if os.path.exists(real_china_md):
-        parse_real_hangzhou_china_trip_md(
-            real_china_md,
-            os.path.join(data_dir, 'china.json')
+    # 2. 🇨🇳 中國大理江南 7 日 DEMO
+    china_md = os.path.join(data_dir, 'DEMO_2026中國大理江南7日方案.md')
+    if os.path.exists(china_md):
+        MultilingualUniversalParser.parse(
+            china_md,
+            os.path.join(data_dir, 'china.json'),
+            10625,
+            "2026大理江南水鄉遊_公積金帳本"
+        )
+        MultilingualUniversalParser.parse(
+            china_md,
+            os.path.join(data_dir, 'china_trip.json'),
+            10625,
+            "2026大理江南水鄉遊_公積金帳本"
         )
 
-    # 3. 瑞士 MD
+    # 3. 🇨🇭 瑞士阿爾卑斯自駕 8 日 DEMO
     swiss_md = os.path.join(data_dir, 'DEMO_2027瑞士阿爾卑斯自駕8日方案.md')
-    if not os.path.exists(swiss_md):
-        swiss_md = os.path.join(data_dir, '2027瑞士阿爾卑斯自駕8日方案.md')
+    if os.path.exists(swiss_md):
+        MultilingualUniversalParser.parse(
+            swiss_md,
+            os.path.join(data_dir, 'swiss.json'),
+            200000,
+            "2027瑞士阿爾卑斯自駕8日遊_公積金帳本"
+        )
+        MultilingualUniversalParser.parse(
+            swiss_md,
+            os.path.join(data_dir, 'swiss_trip.json'),
+            200000,
+            "2027瑞士阿爾卑斯自駕8日遊_公積金帳本"
+        )
 
-    MultilingualUniversalParser.parse(
-        swiss_md,
-        os.path.join(data_dir, 'swiss.json'),
-        200000,
-        "2027瑞士阿爾卑斯自駕8日遊_公積金帳本"
-    )
-
-    # 4. 英文巴黎 MD
+    # 4. 🇫🇷 巴黎 7 日 DEMO
     paris_md = os.path.join(data_dir, 'DEMO_Paris_7Days_Trip.md')
-    if not os.path.exists(paris_md):
-        paris_md = os.path.join(data_dir, 'Paris_7Days_Trip.md')
+    if os.path.exists(paris_md):
+        MultilingualUniversalParser.parse(
+            paris_md,
+            os.path.join(data_dir, 'paris.json'),
+            3000,
+            "Paris_Luxury_Tour_Budget"
+        )
 
-    MultilingualUniversalParser.parse(
-        paris_md,
-        os.path.join(data_dir, 'paris.json'),
-        3000,
-        "Paris_Luxury_Tour_Budget",
-        PARIS_HOTELS
-    )
-
-    # 5. 🇹🇼 台灣環島 3日機車慢遊 (8/3-8/5)
+    # 5. 🇹🇼 台灣東海岸與墾丁 3 日 DEMO
     taiwan_md = os.path.join(data_dir, 'DEMO_Taiwan_Island_Tour.md')
-    if not os.path.exists(taiwan_md):
-        taiwan_md = os.path.join(data_dir, 'Taiwan_Island_Tour.md')
-
-    MultilingualUniversalParser.parse(
-        taiwan_md,
-        os.path.join(data_dir, 'taiwan.json'),
-        18500,
-        "2026台灣機車環島_公積金帳本",
-        TAIWAN_HOTELS
-    )
+    if os.path.exists(taiwan_md):
+        MultilingualUniversalParser.parse(
+            taiwan_md,
+            os.path.join(data_dir, 'taiwan.json'),
+            18500,
+            "2026台灣環島遊_公積金帳本"
+        )
 
 if __name__ == '__main__':
     main()

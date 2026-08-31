@@ -1,21 +1,406 @@
 {
-    "1": {
-        "date": "6/01 六",
-        "theme": "蘇黎世湖畔與老城區巡禮",
-        "defense": "自駕取車直奔湖景飯店,全程無障礙行李移動",
-        "timeline": [
-            { "time": "10:00 - 11:00", "title": "蘇黎世機場 ➔ 取車自駕開啟阿爾卑斯之旅", "desc": "機場取車處領取四輪驅動 SUV，輕鬆裝載全家大行李。", "duration": "1 小時", "event_type": "transport" },
-            { "time": "11:30 - 14:00", "title": "班霍夫大街與蘇黎世老城漫步", "desc": "逛瑞士頂級鐘錶街與聖彼得大教堂大鐘樓。", "duration": "2.5 小時", "event_type": "activity" },
-            { "time": "15:00 - 18:00", "title": "蘇黎世湖遊船與林登霍夫山丘俯瞰古城", "desc": "乘船遊覽淨澈湖光山色，登丘陵欣賞利馬特河風光。", "duration": "3 小時", "event_type": "activity" }
-        ]
-    },
-    "2": {
-        "date": "6/02 日",
-        "theme": "少女峰山腳格林德瓦與冰河景觀",
-        "defense": "纜車預約號碼牌防衝撞，高空舒適登頂",
-        "timeline": [
-            { "time": "08:30 - 10:30", "title": "蘇黎世 ➔ 格林德瓦 (景觀自駕公路)", "desc": "沿圖恩湖與布里恩茨湖兩大藍寶石湖泊行駛。", "duration": "2 小時", "event_type": "transport" },
-            { "time": "11:00 - 15:30", "title": "Eiger Express 艾格快線纜車 ➔ 少女峰頂站 (Top of Europe)", "desc": "直達歐洲最高火車站，參觀超級冰宮與阿萊奇冰川萬年雪原。", "duration": "4.5 小時", "event_type": "activity" }
-        ]
+    "title": "2027 瑞士阿爾卑斯自駕 8日遊",
+    "subtitle": "6/12 (六) ~ 6/19 (六) · 蘇黎世・因特拉肯・策馬特馬特洪峰・琉森湖奢華自駕",
+    "sheet_name": "2027瑞士阿爾卑斯自駕8日遊_公積金帳本",
+    "budget_total": 200000,
+    "days_count": 8,
+    "hotels": [
+        {
+            "date": "6/12 - 6/14 (Day 1 - Day 2)",
+            "name": "Victoria-Jungfrau Grand Hotel & Spa Interlaken",
+            "address": "Höheweg 41, 3800 Interlaken, Switzerland",
+            "access": "Interlaken Ost 火車站步行 8 分鐘 / 專車直達",
+            "phone": "+41 33 828 28 28",
+            "notes": "五星級傳奇奢華酒店，客房正對少女峰絕景，配備頂級 SPA。"
+        },
+        {
+            "date": "6/14 - 6/17 (Day 3 - Day 6)",
+            "name": "Grand Hotel Zermatterhof",
+            "address": "Bahnhofstrasse 55, 3920 Zermatt, Switzerland",
+            "access": "策馬特火車站馬車免費接駁 3 分鐘",
+            "phone": "+41 27 966 66 00",
+            "notes": "陽台正對馬特洪峰巨岩，復古馬車接送，含米其林星級早餐。"
+        },
+        {
+            "date": "6/17 - 6/19 (Day 7 - Day 8)",
+            "name": "Hotel Schweizerhof Luzern",
+            "address": "Schweizerhofquai 3, 6002 Luzern, Switzerland",
+            "access": "琉森火車站步行 5 分鐘",
+            "phone": "+41 41 410 04 10",
+            "notes": "正對琉森湖與阿爾卑斯群峰，步行 2 分鐘直達卡貝爾木橋。"
+        }
+    ],
+    "days": {
+        "1": {
+            "date": "6/12 六",
+            "theme": "📅 Day 1(6/12 六) 抵達蘇黎世與班霍夫大街慢步",
+            "defense": "蘇黎世機場取車自駕, 入住湖畔高級飯店",
+            "timeline": [
+                {
+                    "time": "10:00 - 12:00",
+                    "title": "蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店",
+                    "desc": "租車櫃檯辦理寶馬自駕休旅車取車手續。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "蘇黎世機場 (ZRH) ➔ 湖畔景觀飯店 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:30",
+                    "title": "班霍夫大街與蘇黎世湖遊船",
+                    "desc": "品嚐 Sprüngli 頂級馬卡龍巧克力，漫步湖畔公園。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=班霍夫大街與蘇黎世湖遊船+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=班霍夫大街與蘇黎世湖遊船+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "班霍夫大街與蘇黎世湖遊船 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "班霍夫大街與蘇黎世湖遊船 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "date": "6/13 日",
+            "theme": "📅 Day 2(6/13 日) 伯恩古城與格林德瓦少女峰腳下",
+            "defense": "世界文化遺產古城與少女峰門戶",
+            "timeline": [
+                {
+                    "time": "09:00 - 11:30",
+                    "title": "蘇黎世 ➔ 伯恩舊城區 (自駕 1.5小時)",
+                    "desc": "參觀時鐘塔、熊公園與阿勒河壯麗彎道。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=蘇黎世 ➔ 伯恩舊城區 (自駕 1.5小時)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=蘇黎世 ➔ 伯恩舊城區 (自駕 1.5小時)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "蘇黎世 ➔ 伯恩舊城區 (自駕 1.5小時) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "蘇黎世 ➔ 伯恩舊城區 (自駕 1.5小時) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "13:30 - 17:00",
+                    "title": "伯恩 ➔ 格林德瓦夢幻山谷",
+                    "desc": "入住山谷景觀飯店，遠眺艾格峰北壁奇景。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=伯恩 ➔ 格林德瓦夢幻山谷+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=伯恩 ➔ 格林德瓦夢幻山谷+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "伯恩 ➔ 格林德瓦夢幻山谷 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "伯恩 ➔ 格林德瓦夢幻山谷 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "date": "6/14 一",
+            "theme": "📅 Day 3(6/14 一) 少女峰山頂車站與冰川天空步道",
+            "defense": "歐洲之巔! 搭乘 Eiger Express 極速纜車登頂",
+            "timeline": [
+                {
+                    "time": "08:30 - 13:00",
+                    "title": "格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch)",
+                    "desc": "體驗艾格快線纜車，參觀超級冰宮與阿萊奇冰川景觀台。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "格林德瓦 ➔ 少女峰峰頂 (Jungfraujoch) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:30 - 17:30",
+                    "title": "勞特布龍嫩瀑布鎮漫步",
+                    "desc": "觀賞 300 公尺高垂直懸崖瀑布。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=勞特布龍嫩瀑布鎮漫步+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=勞特布龍嫩瀑布鎮漫步+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "勞特布龍嫩瀑布鎮漫步 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "勞特布龍嫩瀑布鎮漫步 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "date": "6/15 二",
+            "theme": "📅 Day 4(6/15 二) 景觀公路自駕前往策馬特",
+            "defense": "景觀公路與無車小鎮策馬特",
+            "timeline": [
+                {
+                    "time": "09:00 - 13:00",
+                    "title": "因特拉肯 ➔ 泰施 (Täsch) 自駕",
+                    "desc": "穿過布里格景觀公路，於泰施將車停放至火車站停車場。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=因特拉肯 ➔ 泰施 (Täsch) 自駕+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=因特拉肯 ➔ 泰施 (Täsch) 自駕+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "因特拉肯 ➔ 泰施 (Täsch) 自駕 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "因特拉肯 ➔ 泰施 (Täsch) 自駕 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:30",
+                    "title": "泰施 ➔ 策馬特 (Zermatt 電車直達)",
+                    "desc": "入住採光極佳之馬特洪峰景觀飯店。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=泰施 ➔ 策馬特 (Zermatt 電車直達)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=泰施 ➔ 策馬特 (Zermatt 電車直達)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "泰施 ➔ 策馬特 (Zermatt 電車直達) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "泰施 ➔ 策馬特 (Zermatt 電車直達) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "5": {
+            "date": "6/16 三",
+            "theme": "📅 Day 5(6/16 三) 高納葛拉特鐵道與馬特洪峰黃金倒影",
+            "defense": "百年齒軌鐵道, 健行至利菲爾湖觀倒影",
+            "timeline": [
+                {
+                    "time": "08:00 - 11:30",
+                    "title": "高納葛拉特齒軌列車登頂 (Gornergrat)",
+                    "desc": "360 度觀賞 29 座海拔 4,000 公尺以上阿爾卑斯群峰。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=高納葛拉特齒軌列車登頂 (Gornergrat)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=高納葛拉特齒軌列車登頂 (Gornergrat)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "高納葛拉特齒軌列車登頂 (Gornergrat) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "高納葛拉特齒軌列車登頂 (Gornergrat) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "12:30 - 15:30",
+                    "title": "利菲爾湖 (Riffelsee) 健行",
+                    "desc": "捕捉馬特洪峰倒映在湛藍湖面的黃金絕景。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=利菲爾湖 (Riffelsee) 健行+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=利菲爾湖 (Riffelsee) 健行+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "利菲爾湖 (Riffelsee) 健行 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "利菲爾湖 (Riffelsee) 健行 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "6": {
+            "date": "6/17 四",
+            "theme": "📅 Day 6(6/17 四) 冰川天堂冰雕宮殿與採爾馬特古鎮",
+            "defense": "全歐洲最高纜車車站 3,883m",
+            "timeline": [
+                {
+                    "time": "09:00 - 12:30",
+                    "title": "馬特洪峰冰川天堂 (Matterhorn Glacier Paradise)",
+                    "desc": "乘坐全景纜車前往歐洲最高觀景台與冰雕宮殿。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=馬特洪峰冰川天堂 (Matterhorn Glacier Paradise)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=馬特洪峰冰川天堂 (Matterhorn Glacier Paradise)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "馬特洪峰冰川天堂 (Matterhorn Glacier Paradise) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "馬特洪峰冰川天堂 (Matterhorn Glacier Paradise) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:00",
+                    "title": "策馬特古老班戶夫大街巡禮",
+                    "desc": "採購瑞士名錶、黑木雕手作與瑞士軍刀。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=策馬特古老班戶夫大街巡禮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=策馬特古老班戶夫大街巡禮+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "策馬特古老班戶夫大街巡禮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "策馬特古老班戶夫大街巡禮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "7": {
+            "date": "6/18 五",
+            "theme": "📅 Day 7(6/18 五) 琉森卡貝爾木橋與琉森湖遊船",
+            "defense": "悲傷獅子紀念碑與百年木結構拱橋",
+            "timeline": [
+                {
+                    "time": "09:00 - 12:30",
+                    "title": "策馬特 ➔ 琉森湖畔 (自駕 2.5小時)",
+                    "desc": "沿冰河線自駕公路抵達美麗湖城琉森。",
+                    "duration": "",
+                    "event_type": "transport",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=策馬特 ➔ 琉森湖畔 (自駕 2.5小時)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=策馬特 ➔ 琉森湖畔 (自駕 2.5小時)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "策馬特 ➔ 琉森湖畔 (自駕 2.5小時) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "策馬特 ➔ 琉森湖畔 (自駕 2.5小時) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                },
+                {
+                    "time": "14:00 - 17:30",
+                    "title": "卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶",
+                    "desc": "漫步歐洲最古老的木造遮篷橋。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": false,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "卡貝爾木橋 (Chapel Bridge) 與琉森湖下午茶 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        },
+        "8": {
+            "date": "6/19 六",
+            "theme": "📅 Day 8(6/19 六) 蘇黎世湖畔滿載歸途",
+            "defense": "機場還車與瑞士名品伴手禮返航",
+            "timeline": [
+                {
+                    "time": "09:30 - 12:00",
+                    "title": "琉森 ➔ 蘇黎世機場 (ZRH)",
+                    "desc": "順利辦理退稅、租車還車與搭機離境。 | ## 🏨 飯店住宿 | **6/12 - 6/14 (Day 1 - Day 2)**: | **名稱**: Victoria-Jungfrau Grand Hotel & Spa Interlaken | **地址**: Höheweg 41, 3800 Interlaken, Switzerland | **交通**: Interlaken Ost 火車站步行 8 分鐘 / 專車直達 | **電話**: +41 33 828 28 28 | **特色**: 五星級傳奇奢華酒店，客房正對少女峰絕景，配備頂級 SPA。 | **6/14 - 6/17 (Day 3 - Day 6)**: | **名稱**: Grand Hotel Zermatterhof | **地址**: Bahnhofstrasse 55, 3920 Zermatt, Switzerland | **交通**: 策馬特火車站馬車免費接駁 3 分鐘 | **電話**: +41 27 966 66 00 | **特色**: 陽台正對馬特洪峰巨岩，復古馬車接送，含米其林星級早餐。 | **6/17 - 6/19 (Day 7 - Day 8)**: | **名稱**: Hotel Schweizerhof Luzern | **地址**: Schweizerhofquai 3, 6002 Luzern, Switzerland | **交通**: 琉森火車站步行 5 分鐘 | **電話**: +41 41 410 04 10 | **特色**: 正對琉森湖與阿爾卑斯群峰，步行 2 分鐘直達卡貝爾木橋。",
+                    "duration": "",
+                    "event_type": "activity",
+                    "is_indoor": true,
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=琉森 ➔ 蘇黎世機場 (ZRH)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=琉森 ➔ 蘇黎世機場 (ZRH)+旅遊指南",
+                    "backup_spots": [
+                        {
+                            "title": "琉森 ➔ 蘇黎世機場 (ZRH) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
+                        },
+                        {
+                            "title": "琉森 ➔ 蘇黎世機場 (ZRH) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

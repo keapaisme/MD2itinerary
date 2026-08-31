@@ -1,566 +1,289 @@
 {
-    "title": "2026 日本東京 6日家庭防禦性自主遊",
-    "subtitle": "",
-    "sheet_name": "2026東京家庭遊_公積金帳本",
+    "title": "2026 東京關東經典 5日遊",
+    "subtitle": "10/10 (六) ~ 10/14 (三) · 淺草晴空塔・富士山河口湖・鎌倉大佛・澀谷Sky奢華體驗",
+    "sheet_name": "2026東京關東遊_公積金帳本",
     "budget_total": 150000,
-    "days_count": 6,
-    "hotels": [],
+    "days_count": 5,
+    "hotels": [
+        {
+            "date": "10/10 - 10/12 (Day 1 - Day 2)",
+            "name": "東京站丸之內飯店 (Marunouchi Hotel Tokyo)",
+            "address": "東京都千代田區丸之內 1-6-3",
+            "access": "JR 東京站丸之內北口直結步行 1 分鐘",
+            "phone": "+81 3-3217-1111",
+            "notes": "直通東京車站地鐵線，前往淺草、新宿極度便利，附贈精緻日式庭園早餐。"
+        },
+        {
+            "date": "10/12 - 10/14 (Day 3 - Day 4)",
+            "name": "澀谷 Stream 威斯汀酒店 (Shibuya Stream Hotel)",
+            "address": "東京都澀谷區澀谷 3-21-3",
+            "access": "澀谷站 C2 出口直結",
+            "phone": "+81 3-5778-9000",
+            "notes": "下樓即為澀谷 Stream 潮流美景區，步行 3 分鐘即可到達 Shibuya Sky 與澀谷十字路口。"
+        }
+    ],
     "days": {
         "1": {
-            "date": "7/10 金",
-            "theme": "📅 Day 1(7/10 金) 橫濱開港歷史與海濱夜景",
-            "defense": "無重物輕裝漫步,紅眼航班後的體力防禦戰",
+            "date": "10/10 六",
+            "theme": "📅 Day 1(10/10 六) 抵達東京成田與淺草下町夜漫步",
+            "defense": "成田 Express 直達市區, 體驗東京經典下町風情",
             "timeline": [
                 {
-                    "time": "08:53 - 10:26",
-                    "title": "成田特快 N'EX (對號座已安排) 大直達",
-                    "desc": "座位: 對號座車廂 | 體驗重點: 剛下飛機由機場對號座直達橫濱。取票資訊：需於當天以前在機場讀取專用 QR 碼領取實體車票。完全避開早高峰地鐵通勤人潮,全家可在車上補眠充電。",
-                    "duration": "",
-                    "event_type": "transport",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=成田特快 N'EX (對號座已安排) 大直達+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=成田特快 N'EX (對號座已安排) 大直達+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "10:26 - 10:55",
-                    "title": "橫濱站 ➔ 直奔元町飯店寄放行李",
-                    "desc": "花費時間: 約 30 分鐘(含轉乘步行與搭車 8 分鐘) | 體驗重點: 抵達橫濱站內不出站,直接換乘「港未來線」至「元町・中華街站」,步行至 【住宿點 A: TRANSCENDER HOTEL】 甩下大行李。",
+                    "time": "12:30 - 14:00",
+                    "title": "成田國際機場 ➔ 東京站 / 淺草",
+                    "desc": "搭乘 N'EX 成田特快直達東京站，入住飯店辦理 Check-in。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：晴朗 26°C · 降雨機率 10% · 港灣微風",
-                    "kol_link": "https://www.youtube.com/results?search_query=橫濱紅磚倉庫+Vlog+開箱",
-                    "official_link": "https://www.yokohama-akarenga.jp/",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=成田國際機場 ➔ 東京站 / 淺草+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=成田國際機場 ➔ 東京站 / 淺草+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "橫濱地標塔大樓 69F 觀景台",
-                            "desc": "高空俯瞰橫濱港夜景，雨天室內全景玻璃視野極佳。"
+                            "title": "成田國際機場 ➔ 東京站 / 淺草 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "橫濱合杯麵博物館 (泡麵博物館)",
-                            "desc": "手作專屬獨一無二杯麵體驗，室內趣味滿分。"
+                            "title": "成田國際機場 ➔ 東京站 / 淺草 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "11:00 - 13:30",
-                    "title": "午餐與中華街,元町人文散步",
-                    "desc": "停留時間: 2.5 小時 | 景點導覽: 漫步開港歷史悠久的 元町商店街,街道寬敞極具洋風質感。",
+                    "time": "15:00 - 17:30",
+                    "title": "淺草寺雷門與仲見世通小吃漫步",
+                    "desc": "漫步百年古剎淺草寺，品嚐現炸人形燒與綠茶抹茶冰淇淋。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=午餐與中華街,元町人文散步+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=午餐與中華街,元町人文散步+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=淺草寺雷門與仲見世通小吃漫步+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=淺草寺雷門與仲見世通小吃漫步+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "淺草寺雷門與仲見世通小吃漫步 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "淺草寺雷門與仲見世通小吃漫步 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "13:30 - 15:00",
-                    "title": "山下公園與紅磚倉庫海風漫步",
-                    "desc": "停留時間: 1.5 小時 | 景點導覽: 沿著 山下公園 海岸線走到由老建築活化的 橫濱紅磚倉庫,吹冷氣慢逛文創雜貨。",
+                    "time": "18:30 - 21:00",
+                    "title": "東京晴空塔 (Tokyo Skytree) 天望甲板與夜景晚餐",
+                    "desc": "登上 450 公尺天望迴廊俯瞰東京璀璨夜景，於晴空塔內享用精緻日式燒肉。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：晴朗 26°C · 降雨機率 10% · 港灣微風",
-                    "kol_link": "https://www.youtube.com/results?search_query=橫濱紅磚倉庫+Vlog+開箱",
-                    "official_link": "https://www.yokohama-akarenga.jp/",
+                    "weather_forecast": "☀️ 時段預報：晴朗 27°C · 降雨機率 0% · 高空視野清晰良好",
+                    "kol_link": "https://www.youtube.com/results?search_query=SHIBUYA+SKY+澀谷+KOL攻略",
+                    "official_link": "https://www.shibuya-scramble-square.com/sky/",
                     "backup_spots": [
                         {
-                            "title": "橫濱地標塔大樓 69F 觀景台",
-                            "desc": "高空俯瞰橫濱港夜景，雨天室內全景玻璃視野極佳。"
+                            "title": "澀谷 Hikarie 室內商場 & 展望大廳",
+                            "desc": "直通地鐵的避雨商場，高樓層設有免費室內景觀大廳。"
                         },
                         {
-                            "title": "橫濱合杯麵博物館 (泡麵博物館)",
-                            "desc": "手作專屬獨一無二杯麵體驗，室內趣味滿分。"
-                        }
-                    ]
-                },
-                {
-                    "time": "15:00 - 18:00",
-                    "title": "進房 Check-in ➔ 善用房內設備與深沉補眠",
-                    "desc": "停留時間: 3 小時 | 體驗重點: 辦理進房。全家洗去紅眼航班疲憊、吹冷氣大補眠,這是恢復體力的核心防禦線。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=進房 Check-in ➔ 善用房內設備與深沉補眠+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=進房 Check-in ➔ 善用房內設備與深沉補眠+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "18:30 之後",
-                    "title": "港未來 21 海濱夜景散步",
-                    "desc": "停留時間: 自由控制 | 景點導覽: 體力完全恢復後,輕裝漫步欣賞全日本最璀璨的港灣夜景。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=港未來 21 海濱夜景散步+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=港未來 21 海濱夜景散步+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "澀谷 PARCO 6F 動漫潮流館",
+                            "desc": "任天堂與神奇寶貝官方旗艦店，動漫迷避雨天堂。"
                         }
                     ]
                 }
             ]
         },
         "2": {
-            "date": "7/11 土",
-            "theme": "📅 Day 2(7/11 土) 鎌倉、湘南海岸與古都一日遊",
-            "defense": "週末反向防禦策略!由藤澤逆向玩進鎌倉,完美避開散場人潮",
+            "date": "10/11 日",
+            "theme": "📅 Day 2(10/11 日) 富士山河口湖一日遊與湖畔絕景",
+            "defense": "全景巴士直達, 富士山與纜車絕景攬勝",
             "timeline": [
                 {
-                    "time": "08:25 - 08:58",
-                    "title": "南向火車避擠動線(石川町 ➔ 藤澤)",
-                    "desc": "花費時間: 33 分鐘 | 體驗重點: 從飯店旁的 JR 石川町站搭根岸線至大船站,原地換月台搭東海道線一站到藤澤站(買江之電一日券)。",
-                    "duration": "",
-                    "event_type": "transport",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=南向火車避擠動線(石川町 ➔ 藤澤)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=南向火車避擠動線(石川町 ➔ 藤澤)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "09:10 - 09:40",
-                    "title": "第一站: 鎌倉高校前站",
-                    "desc": "停留時間: 30 分鐘 | 景點導覽: 打卡經典的 灌籃高手平交道。早上 09:30 前旅行團尚未湧入,拍照免排隊且海風清涼。",
+                    "time": "08:00 - 10:00",
+                    "title": "新宿站 ➔ 河口湖 (富士回遊特快)",
+                    "desc": "搭乘直達特快列車直達河口湖站。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第一站: 鎌倉高校前站+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第一站: 鎌倉高校前站+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴朗 22°C · 降雨機率 10% · 能見度極佳觀富士山",
+                    "kol_link": "https://www.youtube.com/results?search_query=富士山+河口湖+纜車+Vlog",
+                    "official_link": "https://www.fujisan.ne.jp/",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "河口湖音樂盒之森美術館",
+                            "desc": "歐式宮廷音樂盒博物館與室內花園庭園。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "富士山世界遺產中心",
+                            "desc": "全室內多媒體富士山地質與信仰文化展覽館。"
                         }
                     ]
                 },
                 {
-                    "time": "09:50 - 11:30",
-                    "title": "第二站: 七里濱站(無敵海景早午餐) (備選方案，非定案)",
-                    "desc": "停留時間: 1 小時 40 分鐘 | 體驗重點: 10:00 準時入座已提早網上預約好的海景景觀席。平視蔚藍海岸,享用招牌香蕉蜂蜜熱鬆餅（此處為選項，非定案。若因費用昂貴或訂不到位取消，可改在附近特色咖啡店或餐廳用餐）。",
+                    "time": "10:30 - 13:00",
+                    "title": "新倉山淺間公園 (忠靈塔與富士山經典合照)",
+                    "desc": "攀登 398 階梯觀景台，拍攝五重塔與富士山全景。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第二站: 七里濱站(無敵海景早午餐) (備選方案，非定案)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第二站: 七里濱站(無敵海景早午餐) (備選方案，非定案)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴朗 22°C · 降雨機率 10% · 能見度極佳觀富士山",
+                    "kol_link": "https://www.youtube.com/results?search_query=富士山+河口湖+纜車+Vlog",
+                    "official_link": "https://www.fujisan.ne.jp/",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "河口湖音樂盒之森美術館",
+                            "desc": "歐式宮廷音樂盒博物館與室內花園庭園。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "富士山世界遺產中心",
+                            "desc": "全室內多媒體富士山地質與信仰文化展覽館。"
                         }
                     ]
                 },
                 {
-                    "time": "11:45 - 13:45",
-                    "title": "第三站: 長谷站雙核心古剎",
-                    "desc": "停留時間: 2 小時 | 景點導覽: 同一條街上一氣呵成參觀日本國寶 高德院(鎌倉大佛) 與登高可遠眺由比濱海景的精緻日式庭園 長谷寺。",
+                    "time": "14:00 - 17:00",
+                    "title": "河口湖天上山纜車與大石公園",
+                    "desc": "搭乘纜車俯瞰河口湖全景，大石公園漫步品嚐花海霜淇淋。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第三站: 長谷站雙核心古剎+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第三站: 長谷站雙核心古剎+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴朗 22°C · 降雨機率 10% · 能見度極佳觀富士山",
+                    "kol_link": "https://www.youtube.com/results?search_query=富士山+河口湖+纜車+Vlog",
+                    "official_link": "https://www.fujisan.ne.jp/",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "河口湖音樂盒之森美術館",
+                            "desc": "歐式宮廷音樂盒博物館與室內花園庭園。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "14:00 - 16:00",
-                    "title": "第四站: 鎌倉站與古都核心主場",
-                    "desc": "停留時間: 2 小時 | 景點導覽: 開啟古都慢活。妻 (T) 主場逛 小町通商店街 採購雜貨;夫 (K) 參觀大氣的 鶴岡八幡宮。此時段 J 與 B 可進行少量自由活動。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第四站: 鎌倉站與古都核心主場+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第四站: 鎌倉站與古都核心主場+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "16:00 之後",
-                    "title": "關鍵撤離!防禦性回程動線",
-                    "desc": "花費時間: 火車直達 26 分鐘 | 體驗重點: 準時從 JR 鎌倉站搭橫須賀線直達橫濱站。下午 16:00 前提早回程,完美避開傍晚全線擠不上車的散場人潮。晚間返回 【住宿點 A】 周邊輕裝逛 3C 或商場。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=關鍵撤離!防禦性回程動線+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=關鍵撤離!防禦性回程動線+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "富士山世界遺產中心",
+                            "desc": "全室內多媒體富士山地質與信仰文化展覽館。"
                         }
                     ]
                 }
             ]
         },
         "3": {
-            "date": "7/12 日",
-            "theme": "📅 Day 3(7/12 日) 東京下町、運河老街與三越前購物一日遊",
-            "defense": "城市無縫切換! 體驗東京歷史下町運河與現代老街百貨",
+            "date": "10/12 一",
+            "theme": "📅 Day 3(10/12 一) 鎌倉古都與江之島海岸線電車之旅",
+            "defense": "江之電古都情懷, 灌籃高手經典打卡位",
             "timeline": [
                 {
-                    "time": "09:30 - 10:15",
-                    "title": "跨城市大直達(橫濱元町 ➔ 東京日本橋)",
-                    "desc": "花費時間: 約 45 分鐘 | 體驗重點: 拉著 4 人大行李,從石川町站搭火車到橫濱站,換乘「JR 總武快速線」直達「新日本橋站」,大行李免多次轉乘折騰。",
+                    "time": "09:00 - 10:00",
+                    "title": "東京 ➔ 鎌倉站 (JR 橫須賀線)",
+                    "desc": "輕鬆出發前往神奈川古都鎌倉。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：晴朗 26°C · 降雨機率 10% · 港灣微風",
-                    "kol_link": "https://www.youtube.com/results?search_query=橫濱紅磚倉庫+Vlog+開箱",
-                    "official_link": "https://www.yokohama-akarenga.jp/",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=東京 ➔ 鎌倉站 (JR 橫須賀線)+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=東京 ➔ 鎌倉站 (JR 橫須賀線)+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "橫濱地標塔大樓 69F 觀景台",
-                            "desc": "高空俯瞰橫濱港夜景，雨天室內全景玻璃視野極佳。"
+                            "title": "東京 ➔ 鎌倉站 (JR 橫須賀線) 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "橫濱合杯麵博物館 (泡麵博物館)",
-                            "desc": "手作專屬獨一無二杯麵體驗，室內趣味滿分。"
+                            "title": "東京 ➔ 鎌倉站 (JR 橫須賀線) 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "10:15 - 10:45",
-                    "title": "雙住宿點行李交接分流 (神級行李超前防禦)",
-                    "desc": "花費時間: 30 分鐘 | 體驗重點: 出站後，**成員3 與 成員4 的大行李直接交由成員1與成員2拉至【住宿點 B: 文華東方】寄放**；**成員3與成員4僅攜帶包含換洗衣服的隨身簡便行李包，直接拉至他們入住的【住宿點 C: 東急STAY日本橋】寄放**。全家隨後輕裝合體，免去後續攜重大行李搬家之苦。",
+                    "time": "10:30 - 12:30",
+                    "title": "鎌倉大佛高德院與鶴岡八幡宮",
+                    "desc": "參拜 13 世紀青銅大佛，漫步小町通商店街品嚐手作火腿與烤年糕。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=雙住宿點行李交接分流 (神級行李超前防禦)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=雙住宿點行李交接分流 (神級行李超前防禦)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=鎌倉大佛高德院與鶴岡八幡宮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=鎌倉大佛高德院與鶴岡八幡宮+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "鎌倉大佛高德院與鶴岡八幡宮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "鎌倉大佛高德院與鶴岡八幡宮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "10:45 - 11:30",
-                    "title": "輕裝合體 ➔ 直奔下町 (日本橋 ➔ 清澄白河)",
-                    "desc": "花費時間: 地鐵直達 7 分鐘 | 體驗重點: 三越前站搭半藏門線，僅 3 站直達清澄白河，極為迅速順暢。",
+                    "time": "14:00 - 17:30",
+                    "title": "江之電平交道 (鎌倉高校前) 與江之島落日",
+                    "desc": "追尋動漫經典場景打卡，於江之島海邊迎接太平洋富士山落日。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=輕裝合體 ➔ 直奔下町 (日本橋 ➔ 清澄白河)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=輕裝合體 ➔ 直奔下町 (日本橋 ➔ 清澄白河)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=江之電平交道 (鎌倉高校前) 與江之島落日+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=江之電平交道 (鎌倉高校前) 與江之島落日+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "江之電平交道 (鎌倉高校前) 與江之島落日 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "11:30 - 13:30",
-                    "title": "第一站: 清澄白河(下町生活感與文青咖啡)",
-                    "desc": "停留時間: 2 小時 | 景點導覽: 漫步在保留江戶時代運河老街風情、同時融入當代精品咖啡的靜謐街區,體驗精品咖啡一號店與市井點心。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第一站: 清澄白河(下町生活感與文青咖啡)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第一站: 清澄白河(下町生活感與文青咖啡)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "13:45 - 16:30",
-                    "title": "第二站: 押上・東京晴空街道 (Solamachi) 與十間橋倒影慢逛",
-                    "desc": "停留時間: 2.5 小時 | 體驗重點: 晴空塔因買不到登塔門票確認取消。調整為全家合體在 Solamachi 商場慢逛，享受下町特色商品與午餐。隨後步行至附近的「十間橋」打卡，拍下晴空塔在運河水面上的經典倒影，或沿著墨田川步道散步感受生活氣息。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第二站: 押上・東京晴空街道 (Solamachi) 與十間橋倒影慢逛+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第二站: 押上・東京晴空街道 (Solamachi) 與十間橋倒影慢逛+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "16:45 - 18:30",
-                    "title": "第三站: 回防日本橋 COREDO 室町(妻 (T) 終極補貨)",
-                    "desc": "停留時間: 2 小時 | 景點導覽: 搭地鐵回到三越前站。主攻將江戶百年老字號(木屋刀具、箔座金箔)現代化包裝的 COREDO 室町，大肆採買伴手禮與雜貨。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第三站: 回防日本橋 COREDO 室町(妻 (T) 終極補貨)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第三站: 回防日本橋 COREDO 室町(妻 (T) 終極補貨)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "18:30 之後",
-                    "title": "日本橋飯店正式 Check-in ➔ 享用江戶天丼",
-                    "desc": "體驗重點: 成員1與成員2返回文華東方進房休息，成員3與成員4回東急STAY日本橋進房休息,分頭啟動。晚間全家再合體享用晚餐。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=日本橋飯店正式 Check-in ➔ 享用江戶天丼+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=日本橋飯店正式 Check-in ➔ 享用江戶天丼+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "江之電平交道 (鎌倉高校前) 與江之島落日 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 }
             ]
         },
         "4": {
-            "date": "7/13 一",
-            "theme": "📅 Day 4(7/13 一) 東京潮流、歐風廣場與澀谷 SKY 高空夜景之夜",
-            "defense": "潮流與浪漫交織! 自由之丘、惠比壽、六本木與 20:40 澀谷 SKY 登塔",
+            "date": "10/13 二",
+            "theme": "📅 Day 4(10/13 二) 明治神宮、原宿竹下通與澀谷 Sky",
+            "defense": "潮流文化與絕美高空展望台",
             "timeline": [
                 {
-                    "time": "09:00 - 09:30",
-                    "title": "出發前往潮流區 (三越前 ➔ 自由之丘)",
-                    "desc": "花費時間: 地鐵直通運轉約 30 分鐘 | 體驗重點: 刷地鐵 48 小時券登上地鐵半藏門線，在澀谷站直通東急東橫線，直達自由之丘，利用地鐵券 + Suica 精算私鐵票價。",
+                    "time": "09:30 - 12:00",
+                    "title": "明治神宮與表參道綠蔭大道",
+                    "desc": "穿過巨型鳥居漫步百年森林神宮，享受都市綠洲靜謐晨光。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=出發前往潮流區 (三越前 ➔ 自由之丘)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=出發前往潮流區 (三越前 ➔ 自由之丘)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=明治神宮與表參道綠蔭大道+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=明治神宮與表參道綠蔭大道+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "明治神宮與表參道綠蔭大道 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "明治神宮與表參道綠蔭大道 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "09:30 - 13:00",
-                    "title": "第一站: 自由之丘(妻 (T) 的雜貨與甜點天堂)",
-                    "desc": "停留時間: 3.5 小時 | 景點導覽: 漫步充滿歐風綠意的雜貨街,精選主攻 IDÉE SHOP 與 Today's Special 採購精緻職人器皿。",
+                    "time": "13:00 - 16:00",
+                    "title": "原宿竹下通與貓街潮流店巡禮",
+                    "desc": "採購日本最新潮牌服飾與特色文具。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第一站: 自由之丘(妻 (T) 的雜貨與甜點天堂)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第一站: 自由之丘(妻 (T) 的雜貨與甜點天堂)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=原宿竹下通與貓街潮流店巡禮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=原宿竹下通與貓街潮流店巡禮+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "原宿竹下通與貓街潮流店巡禮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "原宿竹下通與貓街潮流店巡禮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "13:15 - 15:00",
-                    "title": "第二站: 惠比壽(啤酒歷史文化與歐風廣場)",
-                    "desc": "停留時間: 1.75 小時 | 體驗重點: 從自由之丘搭東急電鐵至中目黑站，原地轉乘地鐵日比谷線至惠比壽，步行前往惠比壽花園廣場欣賞巴洛克紅磚歐風廣場(滿足夫 (K) 歷史與商業文化體驗)。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第二站: 惠比壽(啤酒歷史文化與歐風廣場)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第二站: 惠比壽(啤酒歷史文化與歐風廣場)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "15:15 - 17:30",
-                    "title": "第三站: 六本木(妻 (T) 的摩登藝術之夜)",
-                    "desc": "停留時間: 2.25 小時 | 景點導覽: 日比谷線直達六本木。漫步於六本木之丘，與巨大蜘蛛公共藝術、日落夜景街景合影。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=第三站: 六本木(妻 (T) 的摩登藝術之夜)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=第三站: 六本木(妻 (T) 的摩登藝術之夜)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "13:00 - 19:40",
-                    "title": "💡 【成員3與成員4半天自由活動分流路線】 (秋葉原商業考察 & 東京大學學術人文)",
-                    "desc": "體驗重點: 成員3與成員4與成員1、成員2在自由之丘分流，搭乘日比谷線/千代田線直奔秋葉原與東大。 | 行程規劃： | **秋葉原 (Akihabara)**：成員3 (25歲) 實地考察中古 Figure 零售店、免稅電商及動漫周邊的定價與管理模式，為未來做生意獲得啟發。 | **東京大學 (U-Tokyo)**：成員4 (21歲) 漫步本鄉校區，參觀經典赤門、安田講堂，感受學術氛圍以啟發未來讀研/讀博思維。 | **特色美食**：成員4 在東大中央食堂享用經典的「赤門拉麵/赤門咖哩」或於秋葉原品嚐高人氣在地拉麵 ➔ \\yen 1,500/人。 | **會合動線**：19:00 從東大前站/根津站搭地鐵至澀谷，19:40 抵達澀谷 Scramble Square 與成員1、成員2會合吃晚餐。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=💡 【成員3與成員4半天自由活動分流路線】 (秋葉原商業考察 & 東京大學學術人文)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=💡 【成員3與成員4半天自由活動分流路線】 (秋葉原商業考察 & 東京大學學術人文)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "17:45 - 20:20",
-                    "title": "第四站: 澀谷潮流人文慢逛與晚餐",
-                    "desc": "停留時間: 2.5 小時 | 景點導覽: 從六本木搭乘都營巴士「都01」或地鐵至澀谷，逛澀谷 Scramble Square 商場周邊潮流設計，全家合體於商場內高空餐廳享受精緻晚餐。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "☀️ 時段預報：晴朗 27°C · 降雨機率 0% · 高空視野清晰良好",
-                    "kol_link": "https://www.youtube.com/results?search_query=SHIBUYA+SKY+澀谷+KOL攻略",
-                    "official_link": "https://www.shibuya-scramble-square.com/sky/",
-                    "backup_spots": [
-                        {
-                            "title": "澀谷 Hikarie 室內商場 & 展望大廳",
-                            "desc": "直通地鐵的避雨商場，高樓層設有免費室內景觀大廳。"
-                        },
-                        {
-                            "title": "澀谷 PARCO 6F 動漫潮流館",
-                            "desc": "任天堂與神奇寶貝官方旗艦店，動漫迷避雨天堂。"
-                        }
-                    ]
-                },
-                {
-                    "time": "20:20 - 20:40",
-                    "title": "澀谷 SKY 快速動線",
-                    "desc": "體驗重點: 全家步行前往 14 樓入口處準備入場。",
+                    "time": "17:00 - 20:00",
+                    "title": "澀谷 Sky (Shibuya Sky) 露天高空日落夜景",
+                    "desc": "於 229 公尺高空露天平台 360 度俯瞰澀谷十字路口與東京塔夜景。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
@@ -575,293 +298,76 @@
                         {
                             "title": "澀谷 PARCO 6F 動漫潮流館",
                             "desc": "任天堂與神奇寶貝官方旗艦店，動漫迷避雨天堂。"
-                        }
-                    ]
-                },
-                {
-                    "time": "20:40 - 22:00",
-                    "title": "第五站: 澀谷 SKY 璀璨夜景登頂 (全家 4 人合體登頂)",
-                    "desc": "停留時間: 1.5 小時 | 體驗重點: 全家 4 人合體登頂 360 度露天展望台，飽覽東京夜景天際線。憑電子票券於 14 樓入口處驗證入場。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "☀️ 時段預報：晴朗 27°C · 降雨機率 0% · 高空視野清晰良好",
-                    "kol_link": "https://www.youtube.com/results?search_query=SHIBUYA+SKY+澀谷+KOL攻略",
-                    "official_link": "https://www.shibuya-scramble-square.com/sky/",
-                    "backup_spots": [
-                        {
-                            "title": "澀谷 Hikarie 室內商場 & 展望大廳",
-                            "desc": "直通地鐵的避雨商場，高樓層設有免費室內景觀大廳。"
-                        },
-                        {
-                            "title": "澀谷 PARCO 6F 動漫潮流館",
-                            "desc": "任天堂與神奇寶貝官方旗艦店，動漫迷避雨天堂。"
-                        }
-                    ]
-                },
-                {
-                    "time": "22:00 之後",
-                    "title": "成員3、成員4行李免運直奔文華東方合體",
-                    "desc": "體驗重點: 結束登頂後，J 與 B 攜隨身換洗小包退房直奔 【住宿點 B: 文華東方酒店】 辦理合體入住（大行李已於 Day 3 超前寄放於文華東方，免去拖重行李奔波之苦）。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=成員3、成員4行李免運直奔文華東方合體+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=成員3、成員4行李免運直奔文華東方合體+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
                         }
                     ]
                 }
             ]
         },
         "5": {
-            "date": "7/14 火",
-            "theme": "📅 Day 5(7/14 火) 撤離與成田山完美防禦線",
-            "defense": "完全不縮減! 早晨高空極致享受,午間從容大直達,神級鰻魚飯與慢逛表參道",
+            "date": "10/14 三",
+            "theme": "📅 Day 5(10/14 三) 築地場外市場品嚐海鮮美食與機場返航",
+            "defense": "鮮甜刺身壽司體驗與東京伴手禮滿載",
             "timeline": [
                 {
-                    "time": "06:30 - 08:00",
-                    "title": "清晨高空水療(夫妻專屬享受)",
-                    "desc": "花費時間: 1.5 小時 | 體驗重點: 夫妻在文華東方 37 樓頂級水療熱療區放鬆,平視晨光中的東京天際線,徹底洗去前四天步行的疲憊。",
+                    "time": "09:00 - 12:00",
+                    "title": "築地場外市場美食巡禮",
+                    "desc": "品嚐新鮮和牛串燒、玉子燒、黑鮪魚大腹刺身與海膽丼飯。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=清晨高空水療(夫妻專屬享受)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=清晨高空水療(夫妻專屬享受)+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=築地場外市場美食巡禮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=築地場外市場美食巡禮+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "築地場外市場美食巡禮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "築地場外市場美食巡禮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "08:00 - 09:30",
-                    "title": "頂級高空奢華早餐與全家合體朝食",
-                    "desc": "花費時間: 1.5 小時 | 體驗重點: 全家在文華東方高空餐廳悠閒合體享用早餐(已包含於夫妻房費內)。",
+                    "time": "13:00 - 15:00",
+                    "title": "銀座資生堂與伊東屋採買伴手禮",
+                    "desc": "採購文房具與日本名品甜點禮盒。",
                     "duration": "",
                     "event_type": "activity",
                     "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=頂級高空奢華早餐與全家合體朝食+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=頂級高空奢華早餐與全家合體朝食+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=銀座資生堂與伊東屋採買伴手禮+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=銀座資生堂與伊東屋採買伴手禮+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "銀座資生堂與伊東屋採買伴手禮 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "銀座資生堂與伊東屋採買伴手禮 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 },
                 {
-                    "time": "10:00",
-                    "title": "Check-out ➔ 走地下通道至地鐵日本橋站",
-                    "desc": "花費時間: 15 分鐘 | 體驗重點: 辦理退房,拉著大行李直接走飯店底下的地下連通道前往地鐵站,免受烈日提行李曝曬之苦。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=Check-out ➔ 走地下通道至地鐵日本橋站+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=Check-out ➔ 走地下通道至地鐵日本橋站+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "10:30 - 11:37",
-                    "title": "神級大直達防禦電車(日本橋 ➔ 京成成田站)",
-                    "desc": "花費時間: 1 小時 7 分鐘 | 體驗重點: 登上都營淺草線(快特・成田機場行),此車與京成線直通運轉。全家一路完全免轉車、免搬行李換月台,直達京成成田站。",
-                    "duration": "",
-                    "event_type": "transport",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=神級大直達防禦電車(日本橋 ➔ 京成成田站)+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=神級大直達防禦電車(日本橋 ➔ 京成成田站)+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "11:45 - 12:00",
-                    "title": "成田飯店甩行李 ➔ 準時抵達表參道開吃",
-                    "desc": "花費時間: 15 分鐘 | 體驗重點: 出站 2 分鐘在 【住宿點 D: 成田里士滿飯店】 櫃檯迅速寄存全家行李,中午 12:00 兩手空空準時出現在古老表參道街頭!",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=成田飯店甩行李 ➔ 準時抵達表參道開吃+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=成田飯店甩行李 ➔ 準時抵達表參道開吃+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "12:00 - 16:30",
-                    "title": "成田山表參道與新勝寺千年古剎慢逛",
-                    "desc": "停留時間: 4.5 小時(完全不縮減!) | 景點導覽: 慢逛由江戶時代木造建築構成的 成田山表參道 採購最後雜貨,並參觀宏偉大氣、人文底蘊極深的千年以上古剎 成田山新勝寺。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=成田山表參道與新勝寺千年古剎慢逛+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=成田山表參道與新勝寺千年古剎慢逛+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                }
-            ]
-        },
-        "6": {
-            "date": "7/15 水",
-            "theme": "📅 Day 6(7/15 水) 從容返程與機場防禦線",
-            "defense": "安全登機,不疾不徐 the 上午收尾",
-            "timeline": [
-                {
-                    "time": "08:30 - 10:00",
-                    "title": "飯店整理與最後打包",
-                    "desc": "體驗重點: 飯店內悠閒享用早餐，整理行李並妥善配重，空出箱子容納最後的伴手禮。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=飯店整理與最後打包+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=飯店整理與最後打包+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "10:00 - 10:30",
-                    "title": "退房辦理 ➔ 搭乘免費巴士直達機場",
-                    "desc": "體驗重點: 辦理退房。搭乘成田里士滿飯店免費接駁巴士直達機場（或自費 \\yen 270/人搭乘京成本線至第二航廈，僅需 10 分鐘，交通相當便利）。",
+                    "time": "16:00 - 19:30",
+                    "title": "N'EX 特快 ➔ 成田機場返航",
+                    "desc": "搭乘專車前往機場，順利辦理登機圓滿結束關東 5 日精緻之旅。 | ## 🏨 飯店住宿 | **10/10 - 10/12 (Day 1 - Day 2)**: | **名稱**: 東京站丸之內飯店 (Marunouchi Hotel Tokyo) | **地址**: 東京都千代田區丸之內 1-6-3 | **交通**: JR 東京站丸之內北口直結步行 1 分鐘 | **電話**: +81 3-3217-1111 | **特色**: 直通東京車站地鐵線，前往淺草、新宿極度便利，附贈精緻日式庭園早餐。 | **10/12 - 10/14 (Day 3 - Day 4)**: | **名稱**: 澀谷 Stream 威斯汀酒店 (Shibuya Stream Hotel) | **地址**: 東京都澀谷區澀谷 3-21-3 | **交通**: 澀谷站 C2 出口直結 | **電話**: +81 3-5778-9000 | **特色**: 下樓即為澀谷 Stream 潮流美景區，步行 3 分鐘即可到達 Shibuya Sky 與澀谷十字路口。",
                     "duration": "",
                     "event_type": "transport",
                     "is_indoor": true,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=退房辦理 ➔ 搭乘免費巴士直達機場+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=退房辦理 ➔ 搭乘免費巴士直達機場+景點介紹",
+                    "weather_forecast": "🌤️ 時段預報：晴時多雲 24°C · 降雨機率 15% · 風速適中",
+                    "kol_link": "https://www.youtube.com/results?search_query=N'EX 特快 ➔ 成田機場返航+旅遊+開箱",
+                    "official_link": "https://www.google.com/search?q=N'EX 特快 ➔ 成田機場返航+旅遊指南",
                     "backup_spots": [
                         {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
+                            "title": "N'EX 特快 ➔ 成田機場返航 鄰近歷史博物館/文化館",
+                            "desc": "當地下雨或過熱時的舒適室內避雨空調備案。"
                         },
                         {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "10:30 - 12:00",
-                    "title": "成田機場第二航廈 ➔ 櫃檯報到與託運",
-                    "desc": "體驗重點: 抵達第二航廈，至虎航 DEMO-FLIGHT-BACK 櫃檯辦理登機與行李託運（請於起飛前 2.5 至 3 小時抵達，避開團客排隊潮）。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=成田機場第二航廈 ➔ 櫃檯報到與託運+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=成田機場第二航廈 ➔ 櫃檯報到與託運+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "12:00 - 13:00",
-                    "title": "免稅店最後採購與登機準備",
-                    "desc": "體驗重點: 通關後於免稅店採買最後的伴手禮（如薯條三兄弟、白色戀人等）。並於登機前在機場美食街或全家便利商店進行「登機前補給」，購買特色零食與飲料 ➔ \\yen 2,330。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=免稅店最後採購與登機準備+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=免稅店最後採購與登機準備+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
-                        }
-                    ]
-                },
-                {
-                    "time": "13:30 - 16:25",
-                    "title": "虎航 DEMO-FLIGHT-BACK 啟航回台",
-                    "desc": "體驗重點: 順利登機，飛返台北，為這段精彩的日本家庭旅行畫下完美句點。",
-                    "duration": "",
-                    "event_type": "activity",
-                    "is_indoor": false,
-                    "weather_forecast": "🌤️ 時段預報：多雲 28°C · 降雨機率 15% · 請以手機實測氣象為準",
-                    "kol_link": "https://www.youtube.com/results?search_query=虎航 DEMO-FLIGHT-BACK 啟航回台+旅遊開箱",
-                    "official_link": "https://www.google.com/search?q=虎航 DEMO-FLIGHT-BACK 啟航回台+景點介紹",
-                    "backup_spots": [
-                        {
-                            "title": "鄰近室內購物中心 / COREDO 商場",
-                            "desc": "舒適涼爽的室內購物區與主題美食街，雨天首選。"
-                        },
-                        {
-                            "title": "在地市立博物館 / 文創園區",
-                            "desc": "深入瞭解在地歷史文化的室內深度景點。"
+                            "title": "N'EX 特快 ➔ 成田機場返航 室內商場/特色風格咖啡館",
+                            "desc": "享用在地限定美食與咖啡休憩區。"
                         }
                     ]
                 }
