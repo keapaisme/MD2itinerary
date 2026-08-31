@@ -1,5 +1,5 @@
 # 🗺️ MD2itinerary (Markdown to Travel Handbook Engine)
-<!-- Version: v1.2 | Description: 切換 GitHub Pages 部署模式，並根據 Git 發布規範移除敏感檔案結構樹。 -->
+<!-- Version: v1.3 | Description: 支援 GitHub Pages 部署 (keapaisme/MD2itinerary) 與 Port 8765 獨立本地開發測試伺服器。 -->
 
 > **Agent-Native 動態旅遊手冊生成器與 Web 渲染引擎**  
 > 自動將 Markdown 旅遊行程轉譯為含 AI 氣象預報、景點備案、KOL 開箱影音與地圖導航的 WOW 級行動裝置旅遊手冊。
@@ -18,30 +18,39 @@
 
 ## 🚀 快速上手步驟 (Quick Start)
 
-### 1. 新增或修改 DEMO 行程檔
+### 1. 本地開發與即時預覽 (Port 8765)
+預防埠號衝突，本地開發預覽統一使用獨立 Port `8765`：
+```bash
+python3 -m http.server 8765
+```
+開啟瀏覽器訪問 `http://localhost:8765` 即可實時預覽手冊成果。
+
+### 2. 新增或修改 DEMO 行程檔
 將 DEMO 行程檔放入 `data/` 目錄中，並以 `DEMO_` 開頭命名（例如 `data/DEMO_My_Trip.md`）。
 
-### 2. 編譯生成 JSON 數據與 AI 情報
+### 3. 編譯生成 JSON 數據與 AI 情報
 執行通用解析器：
 ```bash
 python3 scripts/build_json.py
 ```
 > `build_json.py` 會自動讀取 `data/DEMO_*.md` 檔，並輸出標準 JSON 數據至 `data/*.json`。
 
-### 3. 執行隱私檢查與數據健檢
+### 4. 執行隱私檢查與數據健檢
 驗證無個資洩漏並檢查 JSON 數據完整性：
 ```bash
 python3 scripts/health_check.py
 ```
 
-### 4. 部署至 GitHub Pages
-執行一鍵部署與隱私防護流水線：
+### 5. 部署至 GitHub Pages
+執行一鍵部署與隱私防護流水線並推送到 GitHub：
 ```bash
 bash deploy.sh
+git push origin main
 ```
 
 ---
 
 ## 🌐 部署方式 (Deployment)
 
-本專案支援 GitHub Pages 靜態託管。無需架設伺服器或負擔雲端運算費用，即可享受極速且安全的行動旅遊手冊體驗。
+本專案靜態託管於 GitHub Pages：[https://github.com/keapaisme/MD2itinerary.git](https://github.com/keapaisme/MD2itinerary.git)
+無需架設伺服器或負擔雲端運算費用，即可享受極速且安全的行動旅遊手冊體驗。
