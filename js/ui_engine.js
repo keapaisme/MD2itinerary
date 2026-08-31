@@ -97,6 +97,8 @@ const UIEngine = {
     renderHeader(payload) {
         const titleEl = document.querySelector('.hero-title');
         const subTitleEl = document.querySelector('.hero-subtitle');
+        const heroHeader = document.getElementById('headerHero');
+        const countryKey = DataService.currentCountry || 'japan';
 
         if (payload.title) {
             document.title = `${payload.title} | 旅遊🧳手書`;
@@ -105,6 +107,50 @@ const UIEngine = {
         if (subTitleEl && payload.subtitle) {
             subTitleEl.textContent = payload.subtitle;
         }
+
+        // 🌟 自動將 AI 漫畫照片套用為 Header 氣氛背景圖
+        if (heroHeader) {
+            heroHeader.style.backgroundImage = `url('${countryKey}_comic.jpg')`;
+        }
+
+        this.updateCurrentMemberPill();
+    },
+
+    updateCurrentMemberPill() {
+        const member = DataService.getCurrentMember();
+        const pillName = document.getElementById('currentMemberName');
+        const pillRole = document.getElementById('currentMemberRole');
+        const pillContainer = document.getElementById('currentMemberPill');
+
+        const roleMap = {
+            '成員1': '成員1 (隊長)',
+            '成員2': '成員2',
+            '成員3': '成員3',
+            '成員4': '成員4'
+        };
+        const colorMap = {
+            '成員1': 'var(--color-husband)',
+            '成員2': 'var(--color-wife)',
+            '成員3': 'var(--color-elder)',
+            '成員4': 'var(--color-younger)'
+        };
+
+        if (pillName) {
+            pillName.textContent = member;
+            pillName.style.color = colorMap[member] || 'var(--color-primary)';
+        }
+        if (pillRole) pillRole.textContent = `當前使用者: ${roleMap[member] || member}`;
+        if (pillContainer) pillContainer.style.borderColor = colorMap[member] || 'var(--color-primary)';
+    },
+
+    selectLoginMember(member) {
+        DataService.setCurrentMember(member);
+        document.querySelectorAll('#loginMemberSelect .avatar-pill').forEach(pill => {
+            const isMatch = pill.dataset.member === member;
+            pill.classList.toggle('active', isMatch);
+            pill.style.opacity = isMatch ? '1' : '0.5';
+        });
+        this.updateCurrentMemberPill();
     },
 
     renderDynamicTabsAndContainers(payload) {
@@ -769,6 +815,32 @@ const UIEngine = {
             }
         };
         reader.readAsDataURL(file);
+    },
+
+    switchComicLayout(layoutKey) {
+        const countryKey = DataService.currentCountry || 'japan';
+        const imgEl = document.getElementById('lightboxImg');
+        const captionEl = document.getElementById('comicCaption');
+        const btnA = document.getElementById('demoLayoutBtnA');
+        const btnB = document.getElementById('demoLayoutBtnB');
+
+        if (btnA && btnB) {
+            btnA.style.borderColor = layoutKey === 'A' ? 'var(--color-primary)' : 'var(--border-color)';
+            btnA.style.background = layoutKey === 'A' ? 'rgba(56,189,248,0.2)' : 'rgba(255,255,255,0.05)';
+            btnA.style.color = layoutKey === 'A' ? 'var(--color-primary)' : 'var(--text-muted)';
+
+            btnB.style.borderColor = layoutKey === 'B' ? 'var(--color-accent)' : 'var(--border-color)';
+            btnB.style.background = layoutKey === 'B' ? 'rgba(244,63,94,0.2)' : 'rgba(255,255,255,0.05)';
+            btnB.style.color = layoutKey === 'B' ? 'var(--color-accent)' : 'var(--text-muted)';
+        }
+
+        if (layoutKey === 'A') {
+            if (imgEl) imgEl.src = `${countryKey}_comic.jpg`;
+            if (captionEl) captionEl.textContent = '🎨 版面 1: AI 獨家畫風紀念卡案 (現場 1:1 復刻打卡標竿)';
+        } else {
+            if (imgEl) imgEl.src = `${countryKey}_comic.jpg`;
+            if (captionEl) captionEl.textContent = '👥 版面 2: 團隊歡聚卡案 (現場 1:1 復刻打卡 DEMO)';
+        }
     }
 };
 

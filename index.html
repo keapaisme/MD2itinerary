@@ -22,7 +22,28 @@
         <div id="loginOverlay" class="login-overlay hidden">
             <div class="login-box">
                 <h1 class="login-title">旅遊🧳手書</h1>
-                <p class="login-subtitle">請輸入 4 位解鎖通行密碼 (預設: 2026)</p>
+                <p class="login-subtitle">請選擇您的成員身分並輸入 4 位解鎖通行密碼 (預設: 2026)</p>
+                
+                <!-- 4人成員身分選取 -->
+                <div id="loginMemberSelect" class="family-avatars" style="justify-content:center; gap:8px; margin-bottom:18px;">
+                    <div class="avatar-pill active" onclick="UIEngine.selectLoginMember('成員1')" data-member="成員1" style="border-color: var(--color-husband); cursor:pointer;">
+                        <span class="avatar-name" style="color: var(--color-husband);">成員1</span>
+                        <span class="avatar-role">成員1 (隊長)</span>
+                    </div>
+                    <div class="avatar-pill" onclick="UIEngine.selectLoginMember('成員2')" data-member="成員2" style="border-color: var(--color-wife); cursor:pointer;">
+                        <span class="avatar-name" style="color: var(--color-wife);">成員2</span>
+                        <span class="avatar-role">成員2</span>
+                    </div>
+                    <div class="avatar-pill" onclick="UIEngine.selectLoginMember('成員3')" data-member="成員3" style="border-color: var(--color-elder); cursor:pointer;">
+                        <span class="avatar-name" style="color: var(--color-elder);">成員3</span>
+                        <span class="avatar-role">成員3</span>
+                    </div>
+                    <div class="avatar-pill" onclick="UIEngine.selectLoginMember('成員4')" data-member="成員4" style="border-color: var(--color-younger); cursor:pointer;">
+                        <span class="avatar-name" style="color: var(--color-younger);">成員4</span>
+                        <span class="avatar-role">成員4</span>
+                    </div>
+                </div>
+
                 <div class="passcode-inputs">
                     <input type="password" maxlength="1" class="passcode-digit" autofocus>
                     <input type="password" maxlength="1" class="passcode-digit">
@@ -33,51 +54,31 @@
             </div>
         </div>
 
-        <!-- 頂部 Hero 區塊與 AI Agent 控制列 -->
-        <header class="header-hero">
-            <h1 class="hero-title">2026 東京・橫濱・鎌倉</h1>
-            <p class="hero-subtitle">7/10 (五) ~ 7/15 (三) · 六日四人精緻防禦行程</p>
+        <!-- 頂部 Hero 區塊 (直接載入 AI 漫畫封面背景) -->
+        <header id="headerHero" class="header-hero">
+            <h1 class="hero-title">旅遊🧳手書</h1>
+            <p class="hero-subtitle">動態行動旅遊手冊</p>
             
-            <!-- 4人成員頭像卡片 -->
-            <div class="family-avatars">
-                <div class="avatar-pill" style="border-color: var(--color-husband);">
-                    <span class="avatar-name" style="color: var(--color-husband);">成員1</span>
-                    <span class="avatar-role">成員1 (隊長)</span>
-                </div>
-                <div class="avatar-pill" style="border-color: var(--color-wife);">
-                    <span class="avatar-name" style="color: var(--color-wife);">成員2</span>
-                    <span class="avatar-role">成員2</span>
-                </div>
-                <div class="avatar-pill" style="border-color: var(--color-elder);">
-                    <span class="avatar-name" style="color: var(--color-elder);">成員3</span>
-                    <span class="avatar-role">成員3</span>
-                </div>
-                <div class="avatar-pill" style="border-color: var(--color-younger);">
-                    <span class="avatar-name" style="color: var(--color-younger);">成員4</span>
-                    <span class="avatar-role">成員4</span>
+            <!-- 當前選定身分標示 -->
+            <div style="display:flex; justify-content:center; margin-top:8px;">
+                <div id="currentMemberPill" class="avatar-pill" style="border-color: var(--color-husband); background: rgba(0,0,0,0.4);">
+                    <span id="currentMemberName" class="avatar-name" style="color: var(--color-husband);">成員1</span>
+                    <span id="currentMemberRole" class="avatar-role">當前使用者: 成員1 (隊長)</span>
                 </div>
             </div>
 
-            <!-- 🌟 AI Agent 特色控制面板 (國家切換) -->
-            <div style="background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); padding: 10px; border-radius: 12px; margin-top: 12px;">
+            <!-- 正式交付：隱藏目的地行程切換 -->
+            <div style="display: none; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); padding: 10px; border-radius: 12px; margin-top: 12px;">
                 <div style="display:flex; justify-content:space-between; align-items:center;">
                     <span style="font-size:0.75rem; font-weight:700; color:var(--color-primary);">🌍 目的地行程切換</span>
                     <select id="countrySelect" style="width:200px; padding:6px; border-radius:8px; background:var(--bg-secondary); color:#fff; border:1px solid var(--border-color); font-size:0.75rem; outline:none;">
-                        <option value="taiwan">🇹🇼 台灣 3日環島機車遊 (8/3-8/5 實體導入)</option>
-                        <option value="japan">🇯🇵 日本 6日遊 (2026東京5日方案A.md)</option>
-                        <option value="china">🇨🇳 中國旅遊 (中國旅遊.md 實體導入)</option>
-                        <option value="swiss">🇨🇭 瑞士 8日遊 (2027瑞士自駕方案.md)</option>
-                        <option value="paris">🇫🇷 巴黎 7日遊 (Paris_7Days_Trip.md 英文實體)</option>
-
+                        <option value="japan">🇯🇵 日本 關東遊 (japan.json)</option>
+                        <option value="paris">🇫🇷 巴黎 奢華遊 (paris.json)</option>
+                        <option value="china">🇨🇳 中國 大理江南遊 (china.json)</option>
+                        <option value="swiss">🇨🇭 瑞士 阿爾卑斯遊 (swiss.json)</option>
+                        <option value="taiwan">🇹🇼 台灣 環島機車遊 (taiwan.json)</option>
                     </select>
                 </div>
-            </div>
-
-
-            <div class="hero-actions" style="margin-top:10px;">
-                <button id="playComicBtn" class="action-pill-btn">
-                    🎬 播放 15 秒開場紙本漫畫
-                </button>
             </div>
         </header>
 
@@ -117,10 +118,16 @@
                 <span onclick="UIEngine.closeLightbox()" style="font-size:1.5rem; cursor:pointer; color:var(--text-muted); padding:0 6px;">&times;</span>
             </div>
             
+            <!-- 🎨 2 版面 DEMO 切換 -->
+            <div style="display:flex; justify-content:center; gap:8px; margin-bottom:12px;">
+                <button id="demoLayoutBtnA" onclick="UIEngine.switchComicLayout('A')" style="padding:6px 12px; font-size:0.75rem; border-radius:16px; border:1px solid var(--color-primary); background:rgba(56,189,248,0.2); color:var(--color-primary); cursor:pointer; font-weight:600;">🖼️ 版面 1 (動漫經典)</button>
+                <button id="demoLayoutBtnB" onclick="UIEngine.switchComicLayout('B')" style="padding:6px 12px; font-size:0.75rem; border-radius:16px; border:1px solid var(--border-color); background:rgba(255,255,255,0.05); color:var(--text-muted); cursor:pointer; font-weight:600;">👥 版面 2 (歡聚打卡)</button>
+            </div>
+
             <div id="comicComparisonArea" style="display:flex; flex-direction:column; gap:12px;">
                 <div>
                     <img id="lightboxImg" src="" alt="AI 漫畫合照" style="width:100%; border-radius:12px; border:1px solid var(--border-color); object-fit:cover; max-height:350px;">
-                    <div id="comicCaption" style="font-size:0.78rem; color:var(--text-muted); margin-top:6px;">🎨 AI 獨家畫風紀念卡案 (現場 1:1 復刻打卡標竿)</div>
+                    <div id="comicCaption" style="font-size:0.78rem; color:var(--text-muted); margin-top:6px;">🎨 版面 1: AI 獨家畫風紀念卡案 (現場 1:1 復刻打卡標竿)</div>
                 </div>
                 <div id="userPhotoContainer" style="display:none;">
                     <div style="font-size:0.82rem; font-weight:700; color:var(--color-success); margin-bottom:6px;">📷 您現場實拍的復刻打卡照片：</div>
