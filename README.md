@@ -1,5 +1,5 @@
-# 🗺️ MD2itinerary (Markdown to Travel Handbook Engine)
-<!-- Version: v1.3 | Description: 支援 GitHub Pages 部署 (keapaisme/MD2itinerary) 與 Port 8765 獨立本地開發測試伺服器。 -->
+# 🗺️ 旅遊🧳手書 (MD2itinerary - Markdown to Travel Handbook Engine)
+<!-- Version: v1.4 | Description: 支援「旅遊🧳手書」動態標題連動、DEMO 全量飯店住宿解析與 GitHub Pages 自動部署。 -->
 
 > **Agent-Native 動態旅遊手冊生成器與 Web 渲染引擎**  
 > 自動將 Markdown 旅遊行程轉譯為含 AI 氣象預報、景點備案、KOL 開箱影音與地圖導航的 WOW 級行動裝置旅遊手冊。
