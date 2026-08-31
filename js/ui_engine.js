@@ -262,15 +262,11 @@ const UIEngine = {
 
                     const safeTitleId = `comment_box_${dayKey}_${spotIndex}`;
 
-                    let comicBtnHtml = '';
-                    if ((countryKey === 'japan' && Number(dayKey) >= 1 && Number(dayKey) <= 6) || countryKey === 'taiwan') {
-                        let comicPath = countryKey === 'taiwan' ? '../taiwan_comic.jpg' : `../day${dayKey}_comic.jpg`;
-                        comicBtnHtml = `
-                            <button onclick="UIEngine.openLightbox('${comicPath}')" class="comic-icon-btn" title="點擊全螢幕觀看 AI 漫畫合照">
-                                🎨 AI 漫畫合照
-                            </button>
-                        `;
-                    }
+                    let comicBtnHtml = `
+                        <button onclick="UIEngine.openComicModal()" class="comic-icon-btn" title="點擊觀看 AI 經典漫畫紀念照 (可現場實拍復刻)">
+                            🎨 AI 漫畫合照
+                        </button>
+                    `;
 
                     let durationText = (item.duration && item.duration !== 'Standard') ? item.duration : '';
 
@@ -718,7 +714,7 @@ const UIEngine = {
         this.renderExpenses(payload);
     },
 
-    openComicModal() {
+    openComicModal(customImgSrc) {
         const countryKey = DataService.currentCountry || 'japan';
         const imgEl = document.getElementById('lightboxImg');
         const titleEl = document.getElementById('comicModalTitle');
@@ -727,7 +723,7 @@ const UIEngine = {
 
         if (userPhotoContainer) userPhotoContainer.style.display = 'none';
 
-        const comicImgPath = `${countryKey}_comic.jpg`;
+        const comicImgPath = customImgSrc || `${countryKey}_comic.jpg`;
         if (imgEl) imgEl.src = comicImgPath;
 
         const countryNames = {
@@ -742,12 +738,20 @@ const UIEngine = {
             titleEl.textContent = `🎨 ${countryNames[countryKey] || '精選'} AI 經典漫畫紀念照`;
         }
 
-        if (modal) modal.classList.remove('hidden');
+        if (modal) {
+            modal.classList.add('active');
+        }
+    },
+
+    openLightbox(imgSrc) {
+        this.openComicModal(imgSrc);
     },
 
     closeLightbox() {
         const modal = document.getElementById('lightboxModal');
-        if (modal) modal.classList.add('hidden');
+        if (modal) {
+            modal.classList.remove('active');
+        }
     },
 
     handleCameraUpload(event) {
