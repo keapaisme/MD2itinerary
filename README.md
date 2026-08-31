@@ -1,5 +1,5 @@
 # 🗺️ 旅遊🧳手書 (MD2itinerary - Markdown to Travel Handbook Engine)
-<!-- Version: v1.6 | Description: 修復 Modal 關閉遮罩機制，確保不拍復刻打卡照亦可 100% 順暢返回主頁。 -->
+<!-- Version: v1.7 | Description: 強化隱私防護，成員標籤全數去歲數化，確保合規上傳。 -->
 
 > **Agent-Native 動態旅遊手冊生成器與 Web 渲染引擎**  
 > 自動將 Markdown 旅遊行程轉譯為含 AI 氣象預報、景點備案、KOL 開箱影音與地圖導航的 WOW 級行動裝置旅遊手冊。
